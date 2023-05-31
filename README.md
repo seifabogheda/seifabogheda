@@ -1,4 +1,6 @@
 <img src="https://e0.pxfuel.com/wallpapers/1018/246/desktop-wallpaper-eat-sleep-code-repeat.jpg">
+<div align=center>
+        <img src="https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=32&center=true&vCenter=true&width=600&height=50&lines=Hi+there+I'm+Fathy+%F0%9F%91%8B;Open-Source+Enthusiast" alt="Headline" />
 <h1 align="center">Hi , I'm Seif Abogheda <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <h3 align="center">Flutter Developer</h3>
  <p align="center">
