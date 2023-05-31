@@ -2,7 +2,7 @@
 <h1 align="center">Hi , I'm Seif Abogheda <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <h3 align="center">Flutter Developer</h3>
  <p align="center">
-<img src="https://img.shields.io/badge/Age-26-blue" />
+<img src="https://img.shields.io/badge/Age-24-blue" />
   <img src="https://img.shields.io/badge/Focus-Machine%20Learning-brightgreen" />
   <img src="https://img.shields.io/badge/Lives-Sri%20Lanka-success" />
   <img src="https://img.shields.io/badge/Languages-English%20%26%20Sinhala-brightgreen" />
