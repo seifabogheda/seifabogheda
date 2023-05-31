@@ -9,7 +9,11 @@
   <img src="https://img.shields.io/badge/Languages-Arabic%20%26%20English-brightgreen" />
 </p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seifabogheda&label=Profile%20views&color=0e75b6&style=flat" alt="seifabogheda" /> </p>
+<img align="right" alt="GIF" height="170px" src="https://media.giphy.com/media/J5B1Y8QZnzXXbLQIBu/giphy.gif" />
 
+### Spotify Playing 🎧
+
+[![Spotify](https://novatorem.bgstatic.vercel.app/api/spotify)](https://open.spotify.com/user/11153360645)
 <p align="left"> <a href="https://twitter.com/abogheda72" target="blank"><img src="https://img.shields.io/twitter/follow/abogheda72?logo=twitter&style=for-the-badge" alt="abogheda72" /></a> </p>
 
 - 📫 How to reach me **seifabogheda89@gmail.com**
