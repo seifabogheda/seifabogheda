@@ -37,12 +37,9 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=seifabogheda&" alt="seifabogheda" /></p>
  <h3 align="left">My Projects :</h3>
-<!-- Title -->
+        
 <h3 dir="auto"><a id="user-content-cheetah" class="anchor" aria-hidden="true" href="#cheetah"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><a id="user-content-chitah" href="#chitah"></a>Cheetah</h3>
 
-<!-- Description -->
-<p align="center">
-  A brief description of the project.
-</p>
-
+<p dir="auto">Cheetah App is your local guide to display advertisements and offers of shops </p>
+        <p dir="auto"><a href="https://play.google.com/store/apps/details?id=com.app.cheetah" rel="nofollow"><img alt="Google Play" src="https://camo.githubusercontent.com/6a201cb97d03bc046f135d063bd3949856526d0ba23e3d45edc436a1fa5499e7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47657425323069742532306f6e253230676f6f676c65253230706c61792d626c75652e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c652d706c6179" style="max-width: 100%;"></a> <a href="/tharwatsamy/tharwatsamy/blob/main"><img alt="App Store" src="https://camo.githubusercontent.com/84d0c40978410f7bcbf2eb4a4d026edf86d2964076277aedebf9cb519c141064/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f47657425323069742532306f6e25323061707025323073746f72652d626c61636b2e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6170702d73746f7265266c6f676f436f6c6f723d7768697465" style="max-width: 100%;"></a></p>
 
