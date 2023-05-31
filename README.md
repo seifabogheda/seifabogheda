@@ -36,9 +36,7 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=seifabogheda&show_icons=true&locale=en&layout=compact" alt="seifabogheda" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=seifabogheda&" alt="seifabogheda" /></p>
-        
-        
-        <h3 align="left">My Projects :</h3>
+ <h3 align="left">My Projects :</h3>
 <!-- Title -->
 
 
