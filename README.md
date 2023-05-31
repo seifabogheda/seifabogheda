@@ -3,9 +3,9 @@
 <h3 align="center">Flutter Developer</h3>
  <p align="center">
 <img src="https://img.shields.io/badge/Age-24-blue" />
-  <img src="https://img.shields.io/badge/Focus-Machine%20Learning-brightgreen" />
-  <img src="https://img.shields.io/badge/Lives-Sri%20Lanka-success" />
-  <img src="https://img.shields.io/badge/Languages-English%20%26%20Sinhala-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-Flutter-brightgreen" />
+  <img src="https://img.shields.io/badge/Lives-Egypt%20Mansoura-success" />
+  <img src="https://img.shields.io/badge/Languages-Arabic%20%26%20English-brightgreen" />
 </p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seifabogheda&label=Profile%20views&color=0e75b6&style=flat" alt="seifabogheda" /> </p>
 
