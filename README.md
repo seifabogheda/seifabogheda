@@ -5,11 +5,6 @@
 
 I'm a **Flutter Developer** based in **Mansoura, Egypt**. I am passionate about building beautiful mobile applications using **Flutter** and **Dart**, and I am always learning new things to improve my skills.
 
-### 🚀 Focus: **Flutter & Dart**
-
-### 👀 Current Project:
-- **[Project NXT](https://play.google.com/store/apps/details?id=me.rebelsunited.projectnxt)**: A platform where talents meet opportunities to showcase their skills.
-
 ---
 
 ## 📊 GitHub Stats
