@@ -1,6 +1,5 @@
 # Hi there, I'm Seif Abogheda 👋
 
-![Seif Abogheda GitHub Stats](https://github-readme-stats.vercel.app/api?username=seifabogheda&show_icons=true&theme=dark)
 
 ## About Me
 
@@ -60,7 +59,7 @@ I'm a **Flutter Developer** based in **Mansoura, Egypt**. I am passionate about 
 
 ---
 
-## 📚 My Projects:
+## 📚 Some of My Projects:
 
 ### 1. [Our Services (خدماتنا)](https://play.google.com/store/apps/details?id=sa.aait.aspbranch.somaly)
 A Saudi platform that connects service providers with users, ensuring all rights are preserved.
