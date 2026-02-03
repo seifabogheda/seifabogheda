@@ -42,13 +42,33 @@ Result-oriented **Senior Flutter Developer** and **Technical Project Manager** w
 *Comprehensive food delivery solution.*
 - **Tech**: Real-time tracking, Secure Payment Gateways, Complex UI Flow.
 
-### 3. [Alakalil](https://play.google.com/store/apps/details?id=sa.aait.aspbranch.alakalil) 💅
+### 3. [Alakalil](https://apps.apple.com/eg/app/%D8%A7%D9%84%D8%A7%D9%83%D9%84%D9%8A%D9%84/id1587589148) 💅
 *Specialized service-booking for beauty salons in Saudi Arabia.*
 - **Tech**: Appointment scheduling system, Exclusive offer management.
 
 ### 4. [Engaz](https://play.google.com/store/apps/details?id=com.engaz.app) 📦
 *B2B wholesale marketplace.*
 - **Tech**: **SignalR/Socket.IO** for real-time updates, price comparison tools.
+
+### 5. [WeHnds](https://play.google.com/store/apps/details?id=com.company.ostaa) 🏗️
+[cite_start]*Specialized engineering and construction collaboration platform.* [cite: 68, 69]
+- [cite_start]**Tech**: Complex Workflow Management, Real-time Collaboration Tools. 
+- [cite_start]**Impact**: Facilitated seamless coordination between engineers, contractors, and technicians. 
+
+### 6. [E-service](https://play.google.com/store/apps/details?id=com.eservice.app) 🛠️
+[cite_start]*All-in-one service provider marketplace.* [cite: 70, 71]
+- [cite_start]**Tech**: Real-time Updates, Secure Payment Integration, Task Management System. 
+- [cite_start]**Impact**: Streamlined the marketplace experience for efficient task fulfillment. 
+
+### 7. [Khadamatna (خدماتنا)](https://apps.apple.com/eg/app/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%86%D8%A7/id1616857080) 🇸🇦
+[cite_start]*Intermediary platform for electronic and recruitment services in Saudi Arabia.* [cite: 74, 75]
+- [cite_start]**Tech**: Transaction Rights Management, Secure Service Fulfillment. [cite: 76, 77]
+- [cite_start]**Impact**: Ensured secure transaction rights for both providers and requestors. [cite: 76, 77]
+
+### 8. [Easy Star](https://play.google.com/store/apps/details?id=sa.aait.aspbranch.easy) ✨
+[cite_start]*Multi-service on-demand application.* [cite: 60, 63]
+- [cite_start]**Tech**: Seamless UI/UX for diverse service categories, One-click booking flow. [cite: 63, 64]
+- [cite_start]**Impact**: Reduced user effort and time for service acquisition. [cite: 64]
 
 ---
 
