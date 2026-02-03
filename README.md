@@ -1,67 +1,61 @@
 # Hi there, I'm Seif Abogheda 👋
+### Senior Flutter Developer & Technical Project Manager
 
-
-## About Me
-
-I'm a **Flutter Developer** based in **Mansoura, Egypt**. I am passionate about building beautiful mobile applications using **Flutter** and **Dart**, and I am always learning new things to improve my skills.
+> **"Turning delayed projects into success stories. Delivered 10+ overdue projects in 3 months."**
 
 ---
 
-## 📊 GitHub Stats
-
-![Seif Abogheda GitHub Stats](https://github-readme-stats.vercel.app/api?username=seifabogheda&show_icons=true&theme=dark)
-
-### Top Languages:
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=seifabogheda&show_icons=true&locale=en&layout=compact)
+## 🚀 Professional Summary
+Result-oriented **Senior Flutter Developer** and **Technical Project Manager** with **5+ years** of experience. Expert in building scalable mobile architectures (Clean Architecture) and managing complex stakeholder relationships across **25+ deployed applications**. Proven track record in rescuing high-pressure projects and stabilizing team dynamics.
 
 ---
 
-## 💬 Connect with Me:
+## 🛠️ Tech Stack & Expertise
 
-- 📫 **Email**: [seifabogheda89@gmail.com](mailto:seifabogheda89@gmail.com)
-- 📄 **[Resume](https://drive.google.com/file/d/12dMQqO-vqsLQoIlxb-4beChY32iO2Ngs/view?usp=drive_link)**
-
-### Social Media:
-- [Twitter](https://twitter.com/abogheda72)
-- [LinkedIn](https://linkedin.com/in/abogheda)
-- [Stack Overflow](https://stackoverflow.com/users/18470635)
-- [Facebook](https://fb.com/seifabogheda74)
-- [Instagram](https://instagram.com/seifabogheda72)
-- [Medium](https://medium.com/@seifabogheda89)
+| Category | Skills |
+| :--- | :--- |
+| **Languages** | Dart, Kotlin, Swift, OOP, SOLID Principles |
+| **Frameworks** | **Flutter** (Mobile, Web), TDD, Clean Architecture |
+| **State Management** | BLoC, Cubit, GetX |
+| **Backend/Real-time** | RESTful APIs, GraphQL, Firebase, **Socket.IO, SignalR** |
+| **Tools** | Git, CI/CD, Google Maps, Jira, ClickUp, Slack |
 
 ---
 
-## 🛠️ Languages and Tools:
+## 📊 Impact & Stats
+- 📈 **Turnaround Success**: Rescued 10+ failing projects in 90 days.
+- 📱 **App Delivery**: Successfully launched 25+ apps on App Store & Play Store.
+- 👥 **Leadership**: Mentored junior devs and established engineering coding standards.
 
-<p>
-  <a href="https://developer.android.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40" /></a>
-  <a href="https://dart.dev" target="_blank"><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40" /></a>
-  <a href="https://www.figma.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40" /></a>
-  <a href="https://firebase.google.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40" /></a>
-  <a href="https://flutter.dev" target="_blank"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40" /></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /></a>
-  <a href="https://www.photoshop.com/en" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40" /></a>
-  <a href="https://postman.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40" /></a>
-</p>
+![Seif's GitHub Stats](https://github-readme-stats.vercel.app/api?username=seifabogheda&show_icons=true&theme=dark)
 
 ---
 
-## 🌱 Current Focus:
+## 📚 Featured Projects (Portfolio)
 
-- Deepening my knowledge of **Flutter** and exploring more advanced features.
-- Working on enhancing my **Flutter** apps and contributing to open-source projects.
+### 1. [Project NXT](https://play.google.com/store/apps/details?id=me.rebelsunited.projectnxt) 🎭
+*Talent development platform connecting stars with opportunities.*
+- **Tech**: Flutter, Social Auth (Apple, TikTok, Google), Performance Optimization.
+- **Impact**: Enhanced user retention through stability improvements.
+
+### 2. [Madfoon Al Sada](https://play.google.com/store/apps/details?id=sa.aait.aspbranch.madfoonalsada) 🍔
+*Comprehensive food delivery solution.*
+- **Tech**: Real-time tracking, Secure Payment Gateways, Complex UI Flow.
+
+### 3. [Alakalil](https://play.google.com/store/apps/details?id=sa.aait.aspbranch.alakalil) 💅
+*Specialized service-booking for beauty salons in Saudi Arabia.*
+- **Tech**: Appointment scheduling system, Exclusive offer management.
+
+### 4. [Engaz](https://play.google.com/store/apps/details?id=com.engaz.app) 📦
+*B2B wholesale marketplace.*
+- **Tech**: **SignalR/Socket.IO** for real-time updates, price comparison tools.
 
 ---
 
-## 📚 Some of My Projects:
+## 💬 Let's Connect
+- 📄 **[Download My Updated Resume](رابط_الـ_CV_بتاعك_هنا)**
+- 📧 **Email**: [seifabogheda89@gmail.com](mailto:seifabogheda89@gmail.com)
+- 🔗 **LinkedIn**: [linkedin.com/in/abogheda](https://linkedin.com/in/abogheda)
 
-### 1. [Our Services (خدماتنا)](https://play.google.com/store/apps/details?id=sa.aait.aspbranch.somaly)
-A Saudi platform that connects service providers with users, ensuring all rights are preserved.
-
-
-
-### 2. [Project NXT](https://play.google.com/store/apps/details?id=me.rebelsunited.projectnxt)
-A platform that helps showcase talents and connects them with the entertainment industry.
-
-
+---
+*“Focusing on writing clean, maintainable code and delivering business value.”*
