@@ -38,7 +38,7 @@ Result-oriented **Senior Flutter Developer** and **Technical Project Manager** w
 - **Tech**: Flutter, Social Auth (Apple, TikTok, Google), Performance Optimization.
 - **Impact**: Enhanced user retention through stability improvements.
 
-### 2. [Madfoon Al Sada]([https://play.google.com/store/apps/details?id=sa.aait.aspbranch.madfoonalsada](https://play.google.com/store/apps/details?id=sa.aait.asp.branch.madfon&pli=1)) 🍔
+### 2. [Madfoon Al Sada](https://play.google.com/store/apps/details?id=sa.aait.asp.branch.madfon&pli=1) 🍔
 *Comprehensive food delivery solution.*
 - **Tech**: Real-time tracking, Secure Payment Gateways, Complex UI Flow.
 
