@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Seif Abogheda" />
     <meta name="robots" content="index,follow" />
-    <meta name="theme-color" content="#f9fafb" />
-    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#111111" />
+    <meta name="color-scheme" content="dark light" />
     <meta
       name="description"
       content="Seif Abogheda is a Technical Project Manager and Flutter Engineer focused on project recovery, scalable delivery, and product-grade execution."
@@ -14,7 +14,7 @@
     <meta property="og:title" content="Seif Abogheda | Technical PM & Flutter Engineer" />
     <meta
       property="og:description"
-      content="Premium single-page portfolio covering delivery leadership, case studies, engineering depth, and direct contact."
+      content="Custom single-page portfolio covering delivery leadership, case studies, engineering depth, and direct contact."
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
@@ -55,16 +55,17 @@
     </header>
 
     <main id="main">
-      <section class="hero section" id="hero">
-        <div class="container hero-grid">
+      <section class="hero" id="hero">
+        <div class="hero-noise" aria-hidden="true"></div>
+        <div class="container hero-shell">
           <div class="hero-copy reveal">
-            <p class="eyebrow">Recovery-minded delivery for software teams</p>
+            <p class="eyebrow">Delivery leadership for software teams that need momentum again</p>
             <h1>I turn struggling software projects into scalable, successful products.</h1>
             <p class="hero-lead">
               Technical Project Manager &amp; Flutter Engineer with 6+ years experience and
               25+ apps delivered.
             </p>
-            <div class="action-row">
+            <div class="hero-actions">
               <a class="button button-primary" href="#case-studies">View Case Studies</a>
               <a class="button button-secondary" href="./assets/cv.pdf" target="_blank" rel="noreferrer">
                 Download CV
@@ -93,38 +94,44 @@
             </div>
           </div>
 
-          <aside class="hero-panel reveal" aria-label="Professional highlight">
-            <p class="panel-label">Delivery snapshot</p>
-            <h2>Leadership, architecture, and execution in one profile.</h2>
-            <p>
-              I help teams recover delayed work, simplify technical decisions, and regain
-              confidence across planning, delivery, and release quality.
-            </p>
-            <dl class="hero-stats">
-              <div>
-                <dt>Projects Recovered</dt>
-                <dd>10+</dd>
-              </div>
-              <div>
-                <dt>Apps Delivered</dt>
-                <dd>25+</dd>
-              </div>
-              <div>
-                <dt>Developers Led</dt>
-                <dd>15+</dd>
-              </div>
-            </dl>
-            <div class="hero-card-footer">
-              <span>Based in Egypt</span>
-              <span>Available for product and delivery work</span>
-            </div>
-          </aside>
+          <div class="hero-stack reveal">
+            <article class="hero-card hero-card-primary">
+              <p class="hero-card-kicker">Delivery Snapshot</p>
+              <h2>Recovery, architecture, and execution in one profile.</h2>
+              <p>
+                I help teams reset delivery, make technical direction clearer, and move products
+                forward with steadier execution.
+              </p>
+              <dl class="hero-stats">
+                <div>
+                  <dt>Projects Recovered</dt>
+                  <dd>10+</dd>
+                </div>
+                <div>
+                  <dt>Apps Delivered</dt>
+                  <dd>25+</dd>
+                </div>
+                <div>
+                  <dt>Developers Led</dt>
+                  <dd>15+</dd>
+                </div>
+              </dl>
+            </article>
+            <article class="hero-card hero-card-secondary">
+              <p class="hero-card-kicker">Where I create leverage</p>
+              <ul class="hero-list">
+                <li>Recover delayed software projects</li>
+                <li>Improve execution across engineering and product</li>
+                <li>Turn technical complexity into structured progress</li>
+              </ul>
+            </article>
+          </div>
         </div>
       </section>
 
       <section class="trust-strip reveal" id="trust">
-        <div class="container trust-row">
-          <p class="trust-label">Worked across teams including</p>
+        <div class="trust-inner">
+          <p class="trust-label">Work shaped through teams including</p>
           <ul class="trust-list">
             <li>Code7x</li>
             <li>IDAM</li>
@@ -135,14 +142,14 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="case-studies">
-        <div class="container stack-lg">
-          <div class="section-heading reveal">
+      <section class="section section-offset case-wrap" id="case-studies">
+        <div class="container case-shell">
+          <div class="section-heading reveal section-heading-wide">
             <p class="eyebrow">Case Studies</p>
-            <h2>Focused interventions that improved delivery, quality, and scalability.</h2>
+            <h2>Three focused interventions that changed delivery outcomes, not just code structure.</h2>
           </div>
           <div class="case-grid">
-            <article class="case-card reveal">
+            <article class="case-card reveal case-card-large">
               <header class="case-header">
                 <p class="case-index">01</p>
                 <h3>Recovering delayed projects</h3>
@@ -198,7 +205,7 @@
               </div>
             </article>
 
-            <article class="case-card reveal">
+            <article class="case-card reveal case-card-dark">
               <header class="case-header">
                 <p class="case-index">03</p>
                 <h3>Performance optimization</h3>
@@ -229,11 +236,11 @@
         </div>
       </section>
 
-      <section class="section" id="skills">
-        <div class="container stack-lg">
+      <section class="section section-light skills-wrap" id="skills">
+        <div class="container offset-right">
           <div class="section-heading reveal">
             <p class="eyebrow">Skills</p>
-            <h2>Technical depth across engineering, architecture, and delivery management.</h2>
+            <h2>Technical depth across engineering, delivery management, and system structure.</h2>
           </div>
           <div class="skills-grid">
             <article class="skill-group reveal">
@@ -254,7 +261,7 @@
                 <span class="skill-pill">GetX</span>
               </div>
             </article>
-            <article class="skill-group reveal">
+            <article class="skill-group reveal skill-group-accent">
               <h3>Backend &amp; APIs</h3>
               <div class="pill-row">
                 <span class="skill-pill">REST</span>
@@ -275,9 +282,9 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="experience">
-        <div class="container stack-lg">
-          <div class="section-heading reveal">
+      <section class="section section-dark experience-wrap" id="experience">
+        <div class="container experience-shell">
+          <div class="section-heading reveal section-heading-wide">
             <p class="eyebrow">Experience</p>
             <h2>Built through delivery leadership, Flutter execution, and team accountability.</h2>
           </div>
@@ -285,13 +292,11 @@
             <article class="timeline-item reveal">
               <div class="timeline-marker" aria-hidden="true"></div>
               <div class="timeline-card">
-                <div class="timeline-topline">
-                  <div class="company-lockup">
-                    <span class="company-logo" aria-hidden="true">C7</span>
-                    <div>
-                      <h3>Code7x</h3>
-                      <p>2025–Present</p>
-                    </div>
+                <div class="company-lockup">
+                  <span class="company-logo" aria-hidden="true">C7</span>
+                  <div>
+                    <h3>Code7x</h3>
+                    <p>2025–Present</p>
                   </div>
                 </div>
                 <p class="timeline-role">Technical Project Manager</p>
@@ -306,13 +311,11 @@
             <article class="timeline-item reveal">
               <div class="timeline-marker" aria-hidden="true"></div>
               <div class="timeline-card">
-                <div class="timeline-topline">
-                  <div class="company-lockup">
-                    <span class="company-logo" aria-hidden="true">ID</span>
-                    <div>
-                      <h3>IDAM</h3>
-                      <p>2024–2025</p>
-                    </div>
+                <div class="company-lockup">
+                  <span class="company-logo" aria-hidden="true">ID</span>
+                  <div>
+                    <h3>IDAM</h3>
+                    <p>2024–2025</p>
                   </div>
                 </div>
                 <p class="timeline-role">Senior Flutter Developer</p>
@@ -327,13 +330,11 @@
             <article class="timeline-item reveal">
               <div class="timeline-marker" aria-hidden="true"></div>
               <div class="timeline-card">
-                <div class="timeline-topline">
-                  <div class="company-lockup">
-                    <span class="company-logo" aria-hidden="true">CT</span>
-                    <div>
-                      <h3>Code Time</h3>
-                      <p>2023–2024</p>
-                    </div>
+                <div class="company-lockup">
+                  <span class="company-logo" aria-hidden="true">CT</span>
+                  <div>
+                    <h3>Code Time</h3>
+                    <p>2023–2024</p>
                   </div>
                 </div>
                 <p class="timeline-role">Team Lead</p>
@@ -348,13 +349,11 @@
             <article class="timeline-item reveal">
               <div class="timeline-marker" aria-hidden="true"></div>
               <div class="timeline-card">
-                <div class="timeline-topline">
-                  <div class="company-lockup">
-                    <span class="company-logo" aria-hidden="true">SL</span>
-                    <div>
-                      <h3>SmartLink</h3>
-                      <p>2022–2023</p>
-                    </div>
+                <div class="company-lockup">
+                  <span class="company-logo" aria-hidden="true">SL</span>
+                  <div>
+                    <h3>SmartLink</h3>
+                    <p>2022–2023</p>
                   </div>
                 </div>
                 <p class="timeline-role">Flutter Developer</p>
@@ -369,13 +368,11 @@
             <article class="timeline-item reveal">
               <div class="timeline-marker" aria-hidden="true"></div>
               <div class="timeline-card">
-                <div class="timeline-topline">
-                  <div class="company-lockup">
-                    <span class="company-logo" aria-hidden="true">AW</span>
-                    <div>
-                      <h3>Awammer</h3>
-                      <p>2020–2022</p>
-                    </div>
+                <div class="company-lockup">
+                  <span class="company-logo" aria-hidden="true">AW</span>
+                  <div>
+                    <h3>Awammer</h3>
+                    <p>2020–2022</p>
                   </div>
                 </div>
                 <p class="timeline-role">Flutter Developer</p>
@@ -390,8 +387,8 @@
         </div>
       </section>
 
-      <section class="section" id="mindset">
-        <div class="container stack-lg">
+      <section class="section mindset-wrap" id="mindset">
+        <div class="container mindset-shell">
           <div class="section-heading reveal">
             <p class="eyebrow">Engineering Mindset</p>
             <h2>Technical decisions shaped for maintainability, performance, and scale.</h2>
@@ -404,7 +401,7 @@
                 change as teams and features grow.
               </p>
             </article>
-            <article class="card reveal">
+            <article class="card reveal card-offset">
               <h3>Performance optimization</h3>
               <p>
                 Treat responsiveness as a quality standard, not a final-stage improvement after
@@ -418,7 +415,7 @@
                 mobile and backend systems.
               </p>
             </article>
-            <article class="card reveal">
+            <article class="card reveal card-dark">
               <h3>Scalable systems</h3>
               <p>
                 Make technical choices that support product growth without slowing the team down
@@ -429,63 +426,61 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="contact">
-        <div class="container contact-grid">
-          <div class="section-heading reveal">
+      <section class="section section-light contact-wrap" id="contact">
+        <div class="container contact-shell">
+          <div class="section-heading reveal section-heading-wide">
             <p class="eyebrow">Contact</p>
-            <h2>Open to thoughtful teams, demanding products, and meaningful delivery work.</h2>
+            <h2>Need a technical lead who can bring order to product delivery?</h2>
             <p class="section-copy">
-              If you need stronger technical ownership, steadier delivery, or a clearer path
-              through product complexity, I&apos;m happy to connect.
+              I work best with teams that value clarity, execution discipline, and products that
+              need stronger technical ownership.
             </p>
           </div>
-          <div class="contact-card reveal">
-            <a class="contact-link" href="mailto:seifabogheda89@gmail.com">
-              <span class="contact-label">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M4 6h16a2 2 0 0 1 2 2v.35l-10 6.25L2 8.35V8a2 2 0 0 1 2-2zm18 4.7V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.3l9.47 5.91a1 1 0 0 0 1.06 0z"/>
-                </svg>
-                <span>Email</span>
-              </span>
-              <strong>seifabogheda89@gmail.com</strong>
-            </a>
-            <a class="contact-link" href="tel:+201002348032">
-              <span class="contact-label">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M6.62 10.79a15.54 15.54 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.03-.24c1.12.37 2.32.56 3.56.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.19 2.44.56 3.56a1 1 0 0 1-.24 1.03z"/>
-                </svg>
-                <span>Phone</span>
-              </span>
-              <strong>01002348032</strong>
-            </a>
-            <a class="contact-link" href="https://wa.me/201002348032" target="_blank" rel="noreferrer">
-              <span class="contact-label">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M16.75 13.96c-.25-.13-1.47-.72-1.7-.8-.23-.08-.39-.13-.56.13-.17.25-.64.8-.79.96-.15.17-.29.19-.54.06-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.48-.4-.41-.56-.42h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.02 2.61.12.17 1.76 2.69 4.26 3.77.6.26 1.07.42 1.43.54.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/>
-                  <path d="M20.52 3.49A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.16 1.59 5.98L0 24l6.27-1.64a11.84 11.84 0 0 0 5.8 1.48h.01c6.56 0 11.9-5.34 11.9-11.91 0-3.18-1.24-6.17-3.46-8.44zm-8.45 18.34h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.98.99-3.63-.24-.37a9.88 9.88 0 0 1-1.51-5.31c0-5.46 4.44-9.9 9.91-9.9 2.64 0 5.13 1.03 7 2.9a9.84 9.84 0 0 1 2.9 7c0 5.46-4.45 9.91-9.91 9.91z"/>
-                </svg>
-                <span>WhatsApp</span>
-              </span>
-              <strong>wa.me/201002348032</strong>
-            </a>
-            <a class="contact-link" href="https://github.com/seifabogheda" target="_blank" rel="noreferrer">
-              <span class="contact-label">
+          <div class="contact-layout">
+            <div class="contact-card reveal">
+              <a class="contact-link" href="mailto:seifabogheda89@gmail.com">
+                <span class="contact-label">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 6h16a2 2 0 0 1 2 2v.35l-10 6.25L2 8.35V8a2 2 0 0 1 2-2zm18 4.7V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.3l9.47 5.91a1 1 0 0 0 1.06 0z"/>
+                  </svg>
+                  <span>Email</span>
+                </span>
+                <strong>seifabogheda89@gmail.com</strong>
+              </a>
+              <a class="contact-link" href="tel:+201002348032">
+                <span class="contact-label">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6.62 10.79a15.54 15.54 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.03-.24c1.12.37 2.32.56 3.56.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.19 2.44.56 3.56a1 1 0 0 1-.24 1.03z"/>
+                  </svg>
+                  <span>Phone</span>
+                </span>
+                <strong>01002348032</strong>
+              </a>
+              <a class="contact-link" href="https://wa.me/201002348032" target="_blank" rel="noreferrer">
+                <span class="contact-label">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M16.75 13.96c-.25-.13-1.47-.72-1.7-.8-.23-.08-.39-.13-.56.13-.17.25-.64.8-.79.96-.15.17-.29.19-.54.06-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.48-.4-.41-.56-.42h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.02 2.61.12.17 1.76 2.69 4.26 3.77.6.26 1.07.42 1.43.54.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/>
+                    <path d="M20.52 3.49A11.86 11.86 0 0 0 12.07 0C5.5 0 .16 5.34.16 11.91c0 2.1.55 4.16 1.59 5.98L0 24l6.27-1.64a11.84 11.84 0 0 0 5.8 1.48h.01c6.56 0 11.9-5.34 11.9-11.91 0-3.18-1.24-6.17-3.46-8.44zm-8.45 18.34h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.98.99-3.63-.24-.37a9.88 9.88 0 0 1-1.51-5.31c0-5.46 4.44-9.9 9.91-9.9 2.64 0 5.13 1.03 7 2.9a9.84 9.84 0 0 1 2.9 7c0 5.46-4.45 9.91-9.91 9.91z"/>
+                  </svg>
+                  <span>WhatsApp</span>
+                </span>
+                <strong>wa.me/201002348032</strong>
+              </a>
+            </div>
+            <div class="contact-side reveal">
+              <a class="contact-mini" href="https://github.com/seifabogheda" target="_blank" rel="noreferrer">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.82-.26.82-.58v-2.03c-3.34.73-4.04-1.42-4.04-1.42-.54-1.37-1.33-1.73-1.33-1.73-1.08-.74.08-.72.08-.72 1.2.08 1.82 1.22 1.82 1.22 1.06 1.82 2.79 1.3 3.47 1 .1-.77.42-1.3.76-1.6-2.66-.3-5.47-1.33-5.47-5.9 0-1.3.46-2.37 1.22-3.2-.12-.3-.53-1.52.12-3.17 0 0 .99-.32 3.25 1.22a11.28 11.28 0 0 1 5.92 0c2.26-1.54 3.25-1.22 3.25-1.22.65 1.65.24 2.87.12 3.17.76.83 1.22 1.9 1.22 3.2 0 4.58-2.82 5.59-5.5 5.89.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/>
                 </svg>
                 <span>GitHub</span>
-              </span>
-              <strong>github.com/seifabogheda</strong>
-            </a>
-            <a class="contact-link" href="https://www.linkedin.com/in/abogheda/" target="_blank" rel="noreferrer">
-              <span class="contact-label">
+              </a>
+              <a class="contact-mini" href="https://www.linkedin.com/in/abogheda/" target="_blank" rel="noreferrer">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M6.94 8.5H3.56V20h3.38zM5.25 3A1.97 1.97 0 1 0 5.3 6.94 1.97 1.97 0 0 0 5.25 3zM20 12.77C20 9.3 18.15 7.7 15.69 7.7c-1.98 0-2.86 1.09-3.35 1.86V8.5H8.96V20h3.38v-6.39c0-.34.02-.68.13-.92.27-.68.87-1.38 1.89-1.38 1.33 0 1.87 1.01 1.87 2.5V20H20z"/>
                 </svg>
                 <span>LinkedIn</span>
-              </span>
-              <strong>linkedin.com/in/abogheda</strong>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </section>

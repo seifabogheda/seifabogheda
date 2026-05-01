@@ -22,6 +22,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!reducedMotion) {
     const items = document.querySelectorAll(".reveal");
+    const root = document.documentElement;
+
+    const updateParallax = () => {
+      const scrollY = Math.min(window.scrollY, 240);
+      root.style.setProperty("--parallax-shift", `${scrollY * 0.08}px`);
+    };
 
     const observer = new IntersectionObserver(
       (entries, currentObserver) => {
@@ -41,6 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
     items.forEach((item) => observer.observe(item));
+    updateParallax();
+    window.addEventListener("scroll", updateParallax, { passive: true });
   } else {
     document
       .querySelectorAll(".reveal")
