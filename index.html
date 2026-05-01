@@ -3,269 +3,466 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seif Abogheda | Technical PM & Flutter Engineer</title>
-  <meta name="description" content="Technical Project Manager & Flutter Engineer focused on scalable delivery and product-grade execution." />
+  <title>Seif Abogheda | Technical PM & Senior Flutter Engineer</title>
+  <meta name="description" content="Technical Project Manager & Senior Flutter Developer with 6+ years experience, 25+ apps delivered, and 10+ projects recovered." />
 
   <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="./styles.css" />
   <script src="./script.js" defer></script>
 </head>
-<body class="dark-theme">
+<body>
 
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header-container">
-      <a href="#hero" class="logo">
-        <span class="logo-mark">SA</span>
-        <div class="logo-text">
-          <strong>Seif Abogheda</strong>
-          <span>PM & Engineer</span>
-        </div>
-      </a>
+      <a href="#hero" class="logo">Seif Abogheda.</a>
       <nav class="nav">
         <ul class="nav-list">
-          <li><a href="#work" class="nav-link">Work</a></li>
           <li><a href="#experience" class="nav-link">Experience</a></li>
-          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Apps & Projects</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
-      <div class="mobile-menu-toggle" id="mobile-menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
     </div>
   </header>
 
   <main>
     <!-- Hero Section -->
     <section class="hero" id="hero">
-      <div class="hero-bg-animation" id="hero-bg"></div>
-      <div class="container hero-container">
-        <div class="hero-content reveal">
-          <p class="eyebrow">Technical Leadership & Execution</p>
-          <h1 class="hero-title">Shaping scalable software and leading successful <span class="text-accent">product deliveries.</span></h1>
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <p class="eyebrow">Delivery & Engineering</p>
+          <h1 class="hero-title">Technical Project Manager & Senior Flutter Developer</h1>
           <p class="hero-subtitle">
-            I turn struggling projects into robust tech solutions. 6+ years experience, 25+ apps delivered across global teams.
+            I turn struggling software projects into scalable, successful products. Managing delivery, architecture, and teams to build high-performance applications.
           </p>
           <div class="hero-cta">
             <a href="./assets/cv.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download CV</a>
-            <a href="#work" class="btn btn-secondary">View My Work</a>
+            <a href="#projects" class="btn btn-secondary">View Applications</a>
+          </div>
+        </div>
+        <div class="hero-right-card">
+          <h3>Career Impact</h3>
+          <p>Real numbers behind the delivery and leadership.</p>
+          <div class="delivery-stats">
+            <div class="stat-item">
+              <span class="stat-value">6+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">25+</span>
+              <span class="stat-label">Apps Delivered</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">10+</span>
+              <span class="stat-label">Projects Recovered</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Work / Projects Section -->
-    <section class="work section" id="work">
+    <!-- Experience Section -->
+    <section class="section" id="experience">
       <div class="container">
-        <div class="section-header reveal">
-          <p class="eyebrow">Portfolio</p>
-          <h2 class="section-title">Selected Projects</h2>
-        </div>
-
-        <div class="filter-container reveal">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
-          <button class="filter-btn" data-filter="leadership">Leadership</button>
-        </div>
-
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <article class="project-card reveal" data-category="leadership">
-            <div class="project-img-wrapper">
-              <div class="project-img placeholder-img bg-gradient-1"></div>
-            </div>
-            <div class="project-content">
-              <div class="tech-stack">
-                <span class="tech-icon">Agile</span>
-                <span class="tech-icon">Jira</span>
-                <span class="tech-icon">Scrum</span>
-              </div>
-              <h3 class="project-title">Project Recovery Program</h3>
-              <div class="problem-solution">
-                <p><strong>Problem:</strong> Delivery tracks were behind schedule, backlog reducing team confidence.</p>
-                <p><strong>Solution:</strong> Rebuilt planning, clarified ownership, delivered 10 delayed projects in 3 months.</p>
-              </div>
-              <div class="project-links">
-                <a href="#" class="btn-link">View Case Study &rarr;</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 2 -->
-          <article class="project-card reveal" data-category="mobile">
-            <div class="project-img-wrapper">
-              <div class="project-img placeholder-img bg-gradient-2"></div>
-            </div>
-            <div class="project-content">
-              <div class="tech-stack">
-                <span class="tech-icon">Flutter</span>
-                <span class="tech-icon">Clean Arch</span>
-                <span class="tech-icon">Firebase</span>
-              </div>
-              <h3 class="project-title">IDAM Production Experience</h3>
-              <div class="problem-solution">
-                <p><strong>Problem:</strong> Codebase complexity made feature delivery risky.</p>
-                <p><strong>Solution:</strong> Introduced precise architectural boundaries and reusable Flutter patterns.</p>
-              </div>
-              <div class="project-links">
-                <a href="#" class="btn-link">GitHub Repo</a>
-                <a href="#" class="btn-link">Live Demo</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 3 -->
-          <article class="project-card reveal" data-category="mobile">
-            <div class="project-img-wrapper">
-              <div class="project-img placeholder-img bg-gradient-3"></div>
-            </div>
-            <div class="project-content">
-              <div class="tech-stack">
-                <span class="tech-icon">Dart</span>
-                <span class="tech-icon">BLoC</span>
-                <span class="tech-icon">REST</span>
-              </div>
-              <h3 class="project-title">Performance Optimization Core</h3>
-              <div class="problem-solution">
-                <p><strong>Problem:</strong> Rendering inefficiencies affected user experience.</p>
-                <p><strong>Solution:</strong> Tightened UI loops, optimized state management, creating faster releases.</p>
-              </div>
-              <div class="project-links">
-                <a href="#" class="btn-link">GitHub Repo</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience Timeline Section -->
-    <section class="experience section bg-alt" id="experience">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="eyebrow">Career Journey</p>
-          <h2 class="section-title">Experience Timeline</h2>
+        <div class="section-header">
+          <p class="eyebrow">Track Record</p>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Real leadership and engineering history.</p>
         </div>
 
         <div class="timeline">
-          <div class="timeline-item reveal">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content card glass-card">
-              <div class="timeline-date">2025 – Present</div>
+          <!-- Code7x -->
+          <div class="timeline-item card">
+            <div class="timeline-header">
               <h3 class="timeline-role">Technical Project Manager <span class="timeline-company">@ Code7x</span></h3>
-              <ul class="timeline-list">
-                <li>Recovered 10 delayed projects in 3 months tightly controlling execution.</li>
-                <li>Reduced backlog by 70% by reprioritizing delivery impact.</li>
-              </ul>
+              <span class="timeline-date">2025 &mdash; Present</span>
             </div>
+            <ul class="timeline-list">
+              <li>Recovered and delivered 10 delayed projects in 3 months.</li>
+              <li>Reduced active backlog by 70%.</li>
+              <li>Led 15 developers across multiple active tracks.</li>
+              <li>Managed clients directly, restored trust, and established clear transparent delivery.</li>
+              <li>Improved overall workflows and engineering productivity.</li>
+            </ul>
           </div>
 
-          <div class="timeline-item reveal">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content card glass-card">
-              <div class="timeline-date">2024 – 2025</div>
+          <!-- IDAM -->
+          <div class="timeline-item card">
+            <div class="timeline-header">
               <h3 class="timeline-role">Senior Flutter Developer <span class="timeline-company">@ IDAM</span></h3>
-              <ul class="timeline-list">
-                <li>Delivered scalable mobile interfaces and improved overall rendering efficiency.</li>
-                <li>Translated complex logic into reliable implementations.</li>
-              </ul>
+              <span class="timeline-date">2024 &mdash; 2025</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Built scalable UI systems adhering to best practices and robust architecture.</li>
+              <li>Improved mobile performance and rendering efficiency for core screens.</li>
+              <li>Worked directly with clients to translate complex business needs into mobile features.</li>
+            </ul>
+          </div>
+
+          <!-- Code Time -->
+          <div class="timeline-item card">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Flutter Team Lead <span class="timeline-company">@ Code Time</span></h3>
+              <span class="timeline-date">2023 &mdash; 2024</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Established team-wide coding standards and review processes.</li>
+              <li>Implemented Clean Architecture across major organizational repositories.</li>
+              <li>Mentored junior to mid-level developers, accelerating their output and code quality.</li>
+            </ul>
+          </div>
+
+          <!-- SmartLink -->
+          <div class="timeline-item card">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Flutter Developer <span class="timeline-company">@ SmartLink</span></h3>
+              <span class="timeline-date">2022 &mdash; 2023</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Built the NXT Project App from the ground up to production.</li>
+              <li>Improved overall user engagement and app performance.</li>
+              <li>Integrated multiple external API auth systems and secure payment gateways.</li>
+            </ul>
+          </div>
+
+          <!-- Awammer -->
+          <div class="timeline-item card">
+            <div class="timeline-header">
+              <h3 class="timeline-role">Flutter Developer <span class="timeline-company">@ Awammer</span></h3>
+              <span class="timeline-date">2020 &mdash; 2022</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Delivered 15+ production-ready mobile applications.</li>
+              <li>Maintained heavy focus on front-end UI fidelity and interaction performance.</li>
+              <li>Handled client collaboration to define technical scope and MVP features.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Capabilities</p>
+          <h2 class="section-title">Technical Expertise</h2>
+          <p class="section-subtitle">Structured, production-grade technical skills.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group card">
+            <h3>Engineering</h3>
+            <div class="badge-container">
+              <span class="badge">Flutter</span>
+              <span class="badge">Dart</span>
+              <span class="badge">Clean Architecture</span>
+              <span class="badge">OOP</span>
+              <span class="badge">SOLID Principles</span>
+              <span class="badge">BLoC / Cubit</span>
             </div>
           </div>
 
-          <div class="timeline-item reveal">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content card glass-card">
-              <div class="timeline-date">2023 – 2024</div>
-              <h3 class="timeline-role">Team Lead <span class="timeline-company">@ Code Time</span></h3>
-              <ul class="timeline-list">
-                <li>Set engineering standards improving code quality globally.</li>
-                <li>Mentored junior developers, solidifying architectural discipline.</li>
-              </ul>
+          <div class="skill-group card">
+            <h3>Project Management</h3>
+            <div class="badge-container">
+              <span class="badge">Agile (Scrum / Kanban)</span>
+              <span class="badge">Sprint Planning</span>
+              <span class="badge">Backlog Grooming</span>
+              <span class="badge">Client Communication</span>
+              <span class="badge">Resource Allocation</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <h3>Backend & APIs</h3>
+            <div class="badge-container">
+              <span class="badge">REST APIs</span>
+              <span class="badge">GraphQL</span>
+              <span class="badge">Firebase Authentication</span>
+              <span class="badge">Firestore</span>
+              <span class="badge">WebSockets</span>
+            </div>
+          </div>
+
+          <div class="skill-group card">
+            <h3>Tools & DevOps</h3>
+            <div class="badge-container">
+              <span class="badge">Jira</span>
+              <span class="badge">Git / GitHub</span>
+              <span class="badge">CI/CD</span>
+              <span class="badge">Figma</span>
+              <span class="badge">Postman</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials section" id="testimonials">
+    <!-- Projects Section -->
+    <section class="section" id="projects">
       <div class="container">
-        <div class="section-header reveal center">
-          <p class="eyebrow">Social Proof</p>
-          <h2 class="section-title">What People Say</h2>
+        <div class="section-header">
+          <p class="eyebrow">Production Applications</p>
+          <h2 class="section-title">Published Apps</h2>
+          <p class="section-subtitle">Real mobile applications currently serving active users in production.</p>
         </div>
-        <div class="testimonials-grid">
-          <div class="testimonial-card glass-card reveal">
-            <p class="testimonial-text">"Seif completely turned around our failing project in just weeks. His ability to blend deep technical knowledge with firm project management is rare."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar placeholder-avatar"></div>
-              <div>
-                <strong>Ahmed R.</strong>
-                <span>CTO, Code7x</span>
+
+        <div class="app-grid">
+          
+          <!-- App 1: Project NXT -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">NX</div>
+              <div class="app-meta">
+                <h3 class="app-title">Project NXT</h3>
+                <span class="app-platform">iOS & Android</span>
               </div>
             </div>
-          </div>
-          <div class="testimonial-card glass-card reveal">
-            <p class="testimonial-text">"An exceptional Flutter engineer and leader. Organized, highly communicative, code quality is consistently remarkable."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar placeholder-avatar"></div>
-              <div>
-                <strong>Salma T.</strong>
-                <span>Product Manager, IDAM</span>
+            <p class="app-desc">Production-scale application focused on user engagement and seamless multi-auth integrations.</p>
+            <div class="app-actions">
+              <a href="https://play.google.com/store/apps/details?id=me.rebelsunited.projectnxt" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
+          <!-- App 2: Haraj Al Mamlaka -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">HM</div>
+              <div class="app-meta">
+                <h3 class="app-title">Haraj Al-Mamlaka (حراج المملكة)</h3>
+                <span class="app-platform">iOS & Android</span>
               </div>
             </div>
-          </div>
+            <p class="app-desc">Large scale marketplace and classifieds platform with real-time bidding, chatting, and listings.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/%D8%AD%D8%B1%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9/id1548691207" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+              <a href="https://play.google.com/store/apps/details?id=sa.aait.asp.heragmamlka" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
+          <!-- App 3: Mrsoom -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">MR</div>
+              <div class="app-meta">
+                <h3 class="app-title">Mrsoom (مرسوم)</h3>
+                <span class="app-platform">iOS & Android</span>
+              </div>
+            </div>
+            <p class="app-desc">A primary regional application servicing large scale user bases with high performance dependencies.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/%D9%85%D8%B1%D8%B3%D9%88%D9%85/id1541744793" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+              <a href="https://play.google.com/store/apps/details?id=sa.aait.php.mrsoom" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
+          <!-- App 4: Sulalah -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">SL</div>
+              <div class="app-meta">
+                <h3 class="app-title">Sulalah</h3>
+                <span class="app-platform">Android</span>
+              </div>
+            </div>
+            <p class="app-desc">E-commerce and tracking application providing direct B2C solutions mapped via robust backends.</p>
+            <div class="app-actions">
+              <a href="https://play.google.com/store/apps/details?id=sa.aait.flutter.sulalah" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
+          <!-- App 5: Malky -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">MK</div>
+              <div class="app-meta">
+                <h3 class="app-title">Malky</h3>
+                <span class="app-platform">Android</span>
+              </div>
+            </div>
+            <p class="app-desc">Specialized enterprise branch application enhancing B2B logistic synchronization and delivery tracking.</p>
+            <div class="app-actions">
+              <a href="https://play.google.com/store/apps/details?id=sa.aait.aspbranch.malky" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
+          <!-- App 6: Mashaghl -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">CM</div>
+              <div class="app-meta">
+                <h3 class="app-title">Coronet Mashaghl</h3>
+                <span class="app-platform">Android</span>
+              </div>
+            </div>
+            <p class="app-desc">Booking and scheduling application for service providers and salons, focusing on calendar handling.</p>
+            <div class="app-actions">
+              <a href="https://play.google.com/store/apps/details?id=sa.aait.asp.coronet.mashaghl" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
+          <!-- App 7: Engaz -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">EG</div>
+              <div class="app-meta">
+                <h3 class="app-title">Engaz</h3>
+                <span class="app-platform">Android</span>
+              </div>
+            </div>
+            <p class="app-desc">Task execution and micro-freelance assignment tracker designed for ultra-fast load times.</p>
+            <div class="app-actions">
+              <a href="https://play.google.com/store/apps/details?id=sa.aait.asp.engaz" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
+          <!-- App 8: Salesco -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">SC</div>
+              <div class="app-meta">
+                <h3 class="app-title">Salesco (سيلزكو)</h3>
+                <span class="app-platform">iOS</span>
+              </div>
+            </div>
+            <p class="app-desc">Comprehensive sales dashboard and metric tracking for regional business teams running iOS.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/salesco-%D8%B3%D9%8A%D9%84%D8%B2%D9%83%D9%88/id6670360206" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+            </div>
+          </article>
+
+          <!-- App 9: Al Akleel -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">AK</div>
+              <div class="app-meta">
+                <h3 class="app-title">Al-Akleel (الاكليل)</h3>
+                <span class="app-platform">iOS</span>
+              </div>
+            </div>
+            <p class="app-desc">Specialized boutique and reservation platform ensuring secure payment and robust UI flow.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/%D8%A7%D9%84%D8%A7%D9%83%D9%84%D9%8A%D9%84/id1587589148" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+            </div>
+          </article>
+
+          <!-- App 10: Sharaft -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">SH</div>
+              <div class="app-meta">
+                <h3 class="app-title">Sharaft (شرفت)</h3>
+                <span class="app-platform">iOS</span>
+              </div>
+            </div>
+            <p class="app-desc">Social connectivity and networking utility app tailored for Middle Eastern markets.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/%D8%B4%D8%B1%D9%81%D8%AA/id6744579729" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+            </div>
+          </article>
+
+          <!-- App 11: Shahia -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">SA</div>
+              <div class="app-meta">
+                <h3 class="app-title">Shahia (شهية)</h3>
+                <span class="app-platform">iOS</span>
+              </div>
+            </div>
+            <p class="app-desc">Food delivery and recipe networking app featuring rich media viewing and reliable checkout logic.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/%D8%B4%D9%87%D9%8A%D8%A9/id6744401579" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+            </div>
+          </article>
+
+          <!-- App 12: Gene -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">GN</div>
+              <div class="app-meta">
+                <h3 class="app-title">Gene</h3>
+                <span class="app-platform">iOS</span>
+              </div>
+            </div>
+            <p class="app-desc">Healthcare metric tracker and appointment scheduling application designed carefully for accessibility.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/gene/id6743855109" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+            </div>
+          </article>
+
+          <!-- App 13: Sinaa -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">SN</div>
+              <div class="app-meta">
+                <h3 class="app-title">Sinaa</h3>
+                <span class="app-platform">iOS</span>
+              </div>
+            </div>
+            <p class="app-desc">Industrial and supplier marketplace tailored for large B2B orders and logistics.</p>
+            <div class="app-actions">
+              <a href="https://apps.apple.com/eg/app/sinaa/id6748640709" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
+            </div>
+          </article>
+
+          <!-- App 14: Easy Branch -->
+          <article class="app-card card">
+            <div class="app-card-top">
+              <div class="app-icon">EZ</div>
+              <div class="app-meta">
+                <h3 class="app-title">Easy Branch</h3>
+                <span class="app-platform">Android</span>
+              </div>
+            </div>
+            <p class="app-desc">Corporate internal operations and management application handling secure employee data.</p>
+            <div class="app-actions">
+              <a href="https://play.google.com/store/apps/details?id=sa.aait.aspbranch.easy" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="contact section bg-alt" id="contact">
+    <section class="section" id="contact">
       <div class="container">
-        <div class="contact-layout">
-          <div class="contact-info reveal">
-            <p class="eyebrow">Let's Talk</p>
-            <h2 class="section-title">Ready to build something robust?</h2>
-            <p class="contact-desc">I work best with teams that value clarity, technical excellence, and structured delivery. Let's start the conversation.</p>
+        <div class="section-header">
+          <p class="eyebrow">Connect</p>
+          <h2 class="section-title">Direct Contact</h2>
+        </div>
+        
+        <div class="contact-card card">
+          <p class="contact-desc">Ready to discuss project recovery, mobile architecture, or engineering leadership? Reach out directly using any of the channels below.</p>
+          
+          <div class="contact-links-grid">
+            <a href="tel:+201002348032" class="contact-action-item">
+              <strong>Phone</strong>
+              <span>+20 100 234 8032</span>
+            </a>
             
-            <div class="contact-links">
-              <a href="mailto:seifabogheda89@gmail.com" class="contact-item card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                <span>seifabogheda89@gmail.com</span>
-              </a>
-              <a href="https://wa.me/201002348032" target="_blank" class="contact-item card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                <span>WhatsApp Connection</span>
-              </a>
-              <div class="social-row">
-                <a href="https://github.com/seifabogheda" class="social-btn glass-card" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/abogheda/" class="social-btn glass-card" target="_blank">LinkedIn</a>
-              </div>
-            </div>
-          </div>
-          <div class="contact-form-wrapper reveal glass-card">
-            <form class="contact-form">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="John Doe" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="john@example.com" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary w-100">Send Message</button>
-            </form>
+            <a href="https://wa.me/201002348032" target="_blank" rel="noopener noreferrer" class="contact-action-item">
+              <strong>WhatsApp</strong>
+              <span>Business Channel</span>
+            </a>
+            
+            <a href="mailto:seifabogheda89@gmail.com" class="contact-action-item">
+              <strong>Email</strong>
+              <span>seifabogheda89@gmail.com</span>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/abogheda/" target="_blank" rel="noopener noreferrer" class="contact-action-item">
+              <strong>LinkedIn</strong>
+              <span>/in/abogheda</span>
+            </a>
           </div>
         </div>
       </div>
@@ -275,16 +472,12 @@
   <footer class="footer">
     <div class="container footer-container">
       <div class="footer-brand">
-        <strong>Seif Abogheda</strong>
-        <p>Technical Project Manager & Flutter Engineer</p>
+        <strong>Seif Abogheda</strong> 
+        <span style="color: var(--text-tertiary); margin-left: 0.5rem;">&copy; <span id="year"></span></span>
       </div>
       <div class="footer-links">
-        <a href="#work">Work</a>
-        <a href="#experience">Experience</a>
-        <a href="./assets/cv.pdf" target="_blank">Resume</a>
-      </div>
-      <div class="footer-legal">
-        &copy; <span id="year"></span> Seif Abogheda. All rights reserved.
+        <a href="https://github.com/seifabogheda" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/abogheda/" target="_blank">LinkedIn</a>
       </div>
     </div>
   </footer>
