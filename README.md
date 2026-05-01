@@ -1,6 +1,6 @@
 # Seif Abogheda Portfolio
 
-Static portfolio site for clients and hiring teams, built with semantic HTML, reusable CSS, and minimal vanilla JavaScript.
+Static single-page portfolio site built with semantic HTML, reusable CSS, and minimal vanilla JavaScript.
 
 ## Live URL
 
@@ -29,7 +29,6 @@ For this repository:
 ## Project Structure
 
 - `index.html` - Client-facing landing page
-- `hire-me.html` - Hiring/company-focused page
 - `.github/workflows/deploy.yml` - GitHub Pages deployment workflow
 - `styles.css` - Shared site styles
 - `script.js` - Small client-side interactions

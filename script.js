@@ -1,1 +1,18 @@
-"use strict";document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector("[data-year]");e&&(e.textContent=(new Date).getFullYear());const t=window.location.pathname.split("/").pop()||"index.html";document.querySelectorAll(".nav-link").forEach(e=>{const o=e.getAttribute("href");(o===`./${t}`||"index.html"===t&&"./index.html"===o)&&(e.classList.add("is-active"),e.setAttribute("aria-current","page"))});const o=document.querySelectorAll(".filter-tab"),a=document.querySelectorAll(".project-card");o.forEach(e=>{e.addEventListener("click",()=>{const t=e.dataset.filter||"all";o.forEach(o=>{const a=o===e;o.classList.toggle("is-active",a),o.setAttribute("aria-selected",String(a))}),a.forEach(e=>{e.hidden="all"!==t&&e.dataset.category!==t})})})});
+"use strict";
+
+document.addEventListener("DOMContentLoaded", () => {
+  const year = document.querySelector("[data-year]");
+
+  if (year) {
+    year.textContent = new Date().getFullYear();
+  }
+
+  const links = document.querySelectorAll('.nav-link[href^="#"]');
+
+  links.forEach((link) => {
+    link.addEventListener("click", () => {
+      links.forEach((item) => item.removeAttribute("aria-current"));
+      link.setAttribute("aria-current", "page");
+    });
+  });
+});
