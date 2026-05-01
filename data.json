@@ -1,0 +1,45 @@
+{
+  "name": "Seif Abogheda",
+  "role": "Technical Project Manager & Senior Flutter Developer",
+  "experienceYears": "6+",
+  "appsShipped": "25+",
+  "location": "Egypt",
+  "phone": "0201002348032",
+  "email": "seifabogheda89@gmail.com",
+  "links": {
+    "github": "https://github.com/seifabogheda/seifabogheda/blob/main/Profile.md",
+    "linkedin": "https://www.linkedin.com/in/abogheda/"
+  },
+  "keyWins": [
+    "Delivered 10 delayed projects in 3 months",
+    "Reduced backlog by 70%",
+    "Led 15 developers"
+  ],
+  "experience": [
+    {
+      "company": "Code7x",
+      "role": "Technical Project Manager",
+      "period": "2025-Present"
+    },
+    {
+      "company": "IDAM",
+      "role": "Senior Flutter Developer",
+      "period": "2024-2025"
+    },
+    {
+      "company": "Code Time",
+      "role": "Flutter Team Lead",
+      "period": "2023-2024"
+    },
+    {
+      "company": "SmartLink LLC",
+      "role": "Flutter Developer",
+      "period": "2022-2023"
+    },
+    {
+      "company": "Awammer Al Shabaka",
+      "role": "Flutter Developer",
+      "period": "2020-2022"
+    }
+  ]
+}
