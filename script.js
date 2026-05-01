@@ -21,9 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   if (!reducedMotion) {
-    const items = document.querySelectorAll(
-      ".section, .hero-copy, .hero-panel, .stat-card, .card, .skill-group, .case-card, .timeline-item, .contact-card"
-    );
+    const items = document.querySelectorAll(".reveal");
 
     const observer = new IntersectionObserver(
       (entries, currentObserver) => {
@@ -45,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     items.forEach((item) => observer.observe(item));
   } else {
     document
-      .querySelectorAll(".section, .hero-copy, .hero-panel, .stat-card, .card, .skill-group, .case-card, .timeline-item, .contact-card")
+      .querySelectorAll(".reveal")
       .forEach((item) => item.classList.add("is-visible"));
   }
 });
