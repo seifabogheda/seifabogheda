@@ -1,340 +1,389 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seif Abogheda | Technical PM & Senior Flutter Engineer</title>
-  <meta name="description" content="Technical Project Manager & Senior Flutter Developer with 6+ years experience, 25+ apps delivered, and 10+ projects recovered." />
-
-  <!-- Google Fonts: Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="./styles.css" />
-  <script src="./script.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Seif Abogheda | Software Project Manager & Senior Flutter Developer</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<style>
+@layer base {
+  html, body { margin: 0; padding: 0; }
+  body { overscroll-behavior: none; }
+  main > :first-child { margin-top: 0!important; }
+  main > :last-child { margin-bottom: 0!important; }
+}
+::-webkit-scrollbar { display: none; }
+</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary": "#69f6b9", "secondary": "#a4c9ff", "on-tertiary-fixed": "#002113", "on-tertiary-fixed-variant": "#005236", "on-error": "#690005", "on-primary-fixed": "#001f28", "secondary-fixed-dim": "#a4c9ff", "on-background": "#dfe2ef", "on-secondary": "#00315d", "on-secondary-fixed-variant": "#004883", "surface-tint": "#43d6ff", "on-primary-container": "#00566a", "primary-fixed-dim": "#43d6ff", "surface-container": "#1c1f29", "on-tertiary": "#003824", "primary": "#a4e7ff", "surface-dim": "#0f131c", "surface-container-highest": "#31353f", "surface-container-high": "#262a34", "surface-container-lowest": "#0a0e17", "surface-variant": "#31353f", "primary-fixed": "#b5ebff", "on-secondary-container": "#a9ccff", "on-secondary-fixed": "#001c39", "outline-variant": "#3c494e", "on-primary-fixed-variant": "#004e60", "tertiary-fixed-dim": "#4edea3", "inverse-surface": "#dfe2ef", "secondary-container": "#02569b", "background": "#0f131c", "secondary-fixed": "#d4e3ff", "on-tertiary-container": "#005b3d", "surface-container-low": "#181b25", "surface-bright": "#353943", "on-surface-variant": "#bbc9cf", "tertiary-container": "#48d99e", "on-primary": "#003543", "outline": "#859399", "surface": "#0f131c", "primary-container": "#00d2fe", "on-error-container": "#ffdad6", "on-surface": "#dfe2ef", "error-container": "#93000a", "error": "#ffb4ab", "inverse-primary": "#00677e", "tertiary-fixed": "#6ffbbe", "inverse-on-surface": "#2c303a" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-md": "1rem", "space-xs": "0.25rem", "margin-md": "3rem", "space-lg": "1.5rem", "gutter-lg": "2rem", "margin-lg": "6rem", "gutter": "1.5rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "gutter-sm": "1rem", "margin": "1.5rem" }, "fontFamily": { "label-code-lg": [ "JetBrains Mono" ], "display-hero": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Plus Jakarta Sans" ], "display-hero-mobile": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ], "label-code-sm": [ "JetBrains Mono" ], "headline-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Inter" ], "body-lg": [ "Inter" ], "headline-md": [ "Plus Jakarta Sans" ], "label-ui": [ "Inter" ] }, "fontSize": { "label-code-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "display-hero": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-hero-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "label-code-sm": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "label-ui": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" } ] } } } };
+</script>
 </head>
-<body>
+<body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary">
 
-  <!-- Header -->
-  <header class="header" id="header">
-    <div class="container header-container">
-      <a href="#hero" class="logo">Seif Abogheda.</a>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li><a href="#experience" class="nav-link">Experience</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#projects" class="nav-link">Apps & Projects</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-      <div class="container hero-layout">
-        <div class="hero-content">
-          <p class="eyebrow">Delivery & Engineering</p>
-          <h1 class="hero-title">Software Project Manager & Senior Flutter Developer</h1>
-          <p class="hero-subtitle">
-            I turn struggling software projects into scalable, successful products. Managing delivery, architecture, and teams to build high-performance applications.
-          </p>
-          <div class="hero-cta">
-            <a href="./assets/cv.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download CV</a>
-            <a href="#projects" class="btn btn-secondary">View Applications</a>
-          </div>
-        </div>
-        <div class="hero-right-card">
-          <h3>Career Impact</h3>
-          <p>Real numbers behind the delivery and leadership.</p>
-          <div class="delivery-stats">
-            <div class="stat-item">
-              <span class="stat-value">6+</span>
-              <span class="stat-label">Years Experience</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">25+</span>
-              <span class="stat-label">Apps Delivered</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">10+</span>
-              <span class="stat-label">Projects Recovered</span>
-            </div>
-          </div>
+<header class="fixed top-0 w-full z-50 bg-surface-dim/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.25)]">
+  <div class="h-20 w-full max-w-[1360px] mx-auto px-margin md:px-margin-md lg:px-margin-lg flex items-center justify-between gap-gutter">
+    <div class="flex items-center gap-space-md shrink-0">
+      <div class="flex flex-col">
+        <div class="flex items-center gap-space-xs">
+          <span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold">Seif Abogheda</span>
+          <span class="hidden xl:inline-flex items-center px-space-xs py-0.5 rounded-full bg-surface-container-high text-primary font-label-code-sm text-label-code-sm tracking-wider uppercase">Software Project Manager</span>
         </div>
       </div>
-    </section>
+    </div>
+    <nav class="hidden lg:flex items-center gap-space-lg">
+      <a class="transition-colors text-primary font-semibold" href="#experience">Experience</a>
+      <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#skills">Skills</a>
+      <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#projects">Apps & Projects</a>
+      <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- Case Studies Section (Formerly Experience) -->
-    <section class="section" id="experience">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Impact & Track Record</p>
-          <h2 class="section-title">Case Studies</h2>
-          <p class="section-subtitle">Real leadership and engineering history mapped to measurable results.</p>
+<main class="w-full pt-20 bg-background min-h-screen">
+  <div class="flex flex-col w-full">
+    <!-- Top Ambient Glow Layer -->
+    <div class="relative w-full overflow-hidden">
+      <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-gradient-to-b from-primary/15 via-secondary-container/20 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+      <div class="absolute top-1/4 -right-20 w-80 h-80 bg-tertiary/10 blur-3xl pointer-events-none rounded-full"></div>
+      
+      <!-- Hero Section -->
+      <section class="relative w-full max-w-[1360px] mx-auto px-margin md:px-margin-md lg:px-margin-lg pt-space-xl pb-margin-lg">
+        <div class="flex flex-col gap-space-lg items-start max-w-5xl">
+          <div class="inline-flex items-center gap-space-sm px-space-md py-1.5 rounded-full bg-surface-container-high shadow-sm">
+            <span class="inline-block w-2 h-2 rounded-full bg-tertiary"></span>
+            <span class="font-label-code-sm text-label-code-sm text-on-surface tracking-wide">Delivery & Engineering</span>
+          </div>
+          <h1 class="font-display-hero text-display-hero text-on-surface tracking-tight font-extrabold max-w-4xl">
+            Software Project Manager & Senior Flutter Developer
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl leading-relaxed">
+            I turn struggling software projects into scalable, successful products. Managing delivery, architecture, and teams to build high-performance applications.
+          </p>
+          <div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+            <a class="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container text-on-primary font-headline-sm text-label-code-lg font-bold shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-0.5 transition-all" href="./assets/cv.pdf" target="_blank">
+              <span class="material-symbols-outlined text-base">download</span>
+              <span>Download CV</span>
+            </a>
+            <a class="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-high text-on-surface font-headline-sm text-label-code-lg font-semibold hover:bg-surface-container-highest transition-colors" href="#projects">
+              <span class="material-symbols-outlined text-base">apps</span>
+              <span>View Applications</span>
+            </a>
+          </div>
         </div>
-
-        <div class="case-studies-grid">
-          <!-- Featured Case Study: Code7x -->
-          <div class="case-study-card featured card">
-            <div class="timeline-header">
-              <h3 class="timeline-role">Software Project Manager <span class="timeline-company">@ Code7x</span></h3>
-              <span class="timeline-date">Apr 2025 &mdash; May 2026</span>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter mt-margin-md">
+          <div class="flex flex-col gap-space-xs p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+            <div class="flex items-center justify-between text-on-surface-variant">
+              <span class="font-label-ui text-label-ui uppercase tracking-wider text-secondary">Experience</span>
+              <span class="material-symbols-outlined text-lg text-tertiary">star</span>
             </div>
+            <div class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">6+</div>
+            <p class="font-body-sm text-body-sm text-on-surface-variant">Years Experience</p>
+          </div>
+          
+          <div class="flex flex-col gap-space-xs p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+            <div class="flex items-center justify-between text-on-surface-variant">
+              <span class="font-label-ui text-label-ui uppercase tracking-wider text-primary">Delivery</span>
+              <span class="material-symbols-outlined text-lg text-primary">verified</span>
+            </div>
+            <div class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">25+</div>
+            <p class="font-body-sm text-body-sm text-on-surface-variant">Apps Delivered</p>
+          </div>
+          
+          <div class="flex flex-col gap-space-xs p-space-lg rounded-xl bg-surface-container-low shadow-sm">
+            <div class="flex items-center justify-between text-on-surface-variant">
+              <span class="font-label-ui text-label-ui uppercase tracking-wider text-secondary-fixed">Impact</span>
+              <span class="material-symbols-outlined text-lg text-secondary">speed</span>
+            </div>
+            <div class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">10+</div>
+            <p class="font-body-sm text-body-sm text-on-surface-variant">Projects Recovered</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Case Studies Section -->
+    <section class="w-full bg-surface-container-lowest py-margin-lg" id="experience">
+      <div class="max-w-[1360px] mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+        <div class="flex flex-col gap-space-xs mb-space-xl">
+          <span class="font-label-code-sm text-label-code-sm uppercase tracking-widest text-primary font-semibold">// IMPACT & TRACK RECORD</span>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Case Studies</h2>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Real leadership and engineering history mapped to measurable results.
+          </p>
+        </div>
+        
+        <div class="flex flex-col gap-space-xl">
+          
+          <!-- qTech -->
+          <div class="flex flex-col p-space-lg md:p-space-xl rounded-xl bg-surface-container-low shadow-md">
+            <div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+              <span class="px-space-xs py-0.5 rounded bg-primary-container/20 text-primary font-label-code-sm text-label-code-sm font-semibold">qTech</span>
+              <span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm text-label-code-sm">Jun 2026 — Present</span>
+            </div>
+            <h3 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">Software Project Coordinator</h3>
             
-            <div class="cs-body">
-              <div class="cs-section">
-                <div class="cs-label"><span class="cs-icon">⚠️</span> PROBLEM</div>
-                <ul>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mt-space-lg">
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-error font-semibold">⚠️ PROBLEM</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Complex delivery across <strong>6 concurrent projects</strong></li>
+                  <li>Need to restore <strong>client trust</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-primary font-semibold">💡 SOLUTION</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Introduced <strong>prioritization framework</strong></li>
+                  <li>Served as <strong>Scrum Master</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-tertiary font-semibold">📈 RESULT</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li><strong>Increased</strong> delivery speed</li>
+                  <li><strong>Reduced</strong> recurring bottlenecks</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Code7x -->
+          <div class="flex flex-col p-space-lg md:p-space-xl rounded-xl bg-gradient-to-br from-surface-container to-surface-container-low shadow-md">
+            <div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+              <span class="px-space-xs py-0.5 rounded bg-tertiary-container/30 text-tertiary font-label-code-sm text-label-code-sm font-semibold">Code7x</span>
+              <span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm text-label-code-sm">Apr 2025 — May 2026</span>
+            </div>
+            <h3 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">Software Project Manager</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mt-space-lg">
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-error font-semibold">⚠️ PROBLEM</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
                   <li>Projects severely <strong>delayed</strong></li>
                   <li>Poor client <strong>communication</strong></li>
                   <li>Inefficient developer <strong>workflows</strong></li>
                 </ul>
               </div>
-
-              <div class="cs-section">
-                <div class="cs-label"><span class="cs-icon">💡</span> SOLUTION</div>
-                <ul>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-primary font-semibold">💡 SOLUTION</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
                   <li>Restructured <strong>delivery pipelines</strong></li>
                   <li>Enforced <strong>transparent reporting</strong></li>
                   <li>Optimized <strong>resource allocation</strong></li>
                 </ul>
               </div>
-
-              <div class="cs-section">
-                <div class="cs-label"><span class="cs-icon">📈</span> RESULT</div>
-                <div class="cs-highlight-block">
-                  <div class="cs-metric">
-                    <span class="cs-metric-val">10</span>
-                    <span class="cs-metric-label">Projects<br>Recovered</span>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-tertiary font-semibold">📈 RESULT</span>
+                <div class="flex gap-4 mt-2">
+                  <div>
+                    <div class="font-headline-md text-headline-md text-tertiary font-bold">10</div>
+                    <div class="font-label-code-sm text-label-code-sm text-on-surface-variant">Projects Recovered</div>
                   </div>
-                  <div class="cs-metric">
-                    <span class="cs-metric-val">70%</span>
-                    <span class="cs-metric-label">Backlog<br>Reduced</span>
+                  <div>
+                    <div class="font-headline-md text-headline-md text-tertiary font-bold">70%</div>
+                    <div class="font-label-code-sm text-label-code-sm text-on-surface-variant">Backlog Reduced</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Secondary Grid -->
-          <div class="cs-grid-secondary">
+          <!-- IDAM -->
+          <div class="flex flex-col p-space-lg md:p-space-xl rounded-xl bg-surface-container-low shadow-md">
+            <div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+              <span class="px-space-xs py-0.5 rounded bg-primary-container/20 text-primary font-label-code-sm text-label-code-sm font-semibold">IDAM</span>
+              <span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm text-label-code-sm">May 2024 — Apr 2025</span>
+            </div>
+            <h3 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">Senior Flutter Developer</h3>
             
-            <!-- qTech -->
-            <div class="case-study-card card">
-              <div class="timeline-header">
-                <h3 class="timeline-role">Software Project Coordinator <span class="timeline-company">@ qTech</span></h3>
-                <span class="timeline-date">Jun 2026 &mdash; Present</span>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mt-space-lg">
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-error font-semibold">⚠️ PROBLEM</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Slow mobile <strong>performance</strong></li>
+                  <li>Complex business <strong>rules</strong></li>
+                </ul>
               </div>
-              <div class="cs-body">
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">⚠️</span> PROBLEM</div>
-                  <ul>
-                    <li>Complex delivery across <strong>6 concurrent projects</strong></li>
-                    <li>Need to restore <strong>client trust</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">💡</span> SOLUTION</div>
-                  <ul>
-                    <li>Introduced <strong>prioritization framework</strong></li>
-                    <li>Served as <strong>Scrum Master</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">📈</span> RESULT</div>
-                  <ul>
-                    <li><strong>Increased</strong> delivery speed</li>
-                    <li><strong>Reduced</strong> recurring bottlenecks</li>
-                  </ul>
-                </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-primary font-semibold">💡 SOLUTION</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Built <strong>scalable UI</strong> systems</li>
+                  <li>Refactored <strong>core screens</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-tertiary font-semibold">📈 RESULT</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li><strong>Faster</strong> rendering limits</li>
+                  <li><strong>Robust</strong> modular architecture</li>
+                </ul>
               </div>
             </div>
-
-            <!-- IDAM -->
-            <div class="case-study-card card">
-              <div class="timeline-header">
-                <h3 class="timeline-role">Senior Flutter Developer <span class="timeline-company">@ IDAM</span></h3>
-                <span class="timeline-date">May 2024 &mdash; Apr 2025</span>
-              </div>
-              <div class="cs-body">
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">⚠️</span> PROBLEM</div>
-                  <ul>
-                    <li>Slow mobile <strong>performance</strong></li>
-                    <li>Complex business <strong>rules</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">💡</span> SOLUTION</div>
-                  <ul>
-                    <li>Built <strong>scalable UI</strong> systems</li>
-                    <li>Refactored <strong>core screens</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">📈</span> RESULT</div>
-                  <ul>
-                    <li><strong>Faster</strong> rendering limits</li>
-                    <li><strong>Robust</strong> modular architecture</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- Code Time -->
-            <div class="case-study-card card">
-              <div class="timeline-header">
-                <h3 class="timeline-role">Flutter Team Lead <span class="timeline-company">@ Code Time</span></h3>
-                <span class="timeline-date">Apr 2023 &mdash; May 2024</span>
-              </div>
-              <div class="cs-body">
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">⚠️</span> PROBLEM</div>
-                  <ul>
-                    <li>Inconsistent <strong>code quality</strong></li>
-                    <li>Slow junior <strong>output latency</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">💡</span> SOLUTION</div>
-                  <ul>
-                    <li>Enforced <strong>Clean Architecture</strong></li>
-                    <li>Created strict <strong>review processes</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">📈</span> RESULT</div>
-                  <ul>
-                    <li><strong>Accelerated</strong> team output</li>
-                    <li><strong>Standardized</strong> major repos</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- SmartLink -->
-            <div class="case-study-card card">
-              <div class="timeline-header">
-                <h3 class="timeline-role">Flutter Developer <span class="timeline-company">@ SmartLink</span></h3>
-                <span class="timeline-date">May 2022 &mdash; Apr 2023</span>
-              </div>
-              <div class="cs-body">
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">⚠️</span> PROBLEM</div>
-                  <ul>
-                    <li>Need for a new <strong>complex app</strong></li>
-                    <li>Multiple disjoint <strong>auth systems</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">💡</span> SOLUTION</div>
-                  <ul>
-                    <li>Built the <strong>NXT App</strong> entirely</li>
-                    <li>Integrated <strong>secure gateways</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">📈</span> RESULT</div>
-                  <ul>
-                    <li>100% <strong>production ready</strong></li>
-                    <li>High user <strong>engagement tracking</strong></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- Awammer -->
-            <div class="case-study-card card">
-              <div class="timeline-header">
-                <h3 class="timeline-role">Flutter Developer <span class="timeline-company">@ Awammer Al Shabaka</span></h3>
-                <span class="timeline-date">Apr 2020 &mdash; May 2022</span>
-              </div>
-              <div class="cs-body">
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">⚠️</span> PROBLEM</div>
-                  <ul>
-                    <li>High volume of <strong>MVP requests</strong></li>
-                    <li>Need for fast <strong>UI fidelity</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">💡</span> SOLUTION</div>
-                  <ul>
-                    <li>Streamlined <strong>client collaboration</strong></li>
-                    <li>Focused on interaction <strong>performance</strong></li>
-                  </ul>
-                </div>
-                <div class="cs-section">
-                  <div class="cs-label"><span class="cs-icon">📈</span> RESULT</div>
-                  <ul>
-                    <li><strong>15+ apps</strong> delivered</li>
-                    <li><strong>High-quality</strong> responsive UI</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
           </div>
+
+          <!-- Code Time -->
+          <div class="flex flex-col p-space-lg md:p-space-xl rounded-xl bg-surface-container-low shadow-md">
+            <div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+              <span class="px-space-xs py-0.5 rounded bg-primary-container/20 text-primary font-label-code-sm text-label-code-sm font-semibold">Code Time</span>
+              <span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm text-label-code-sm">Apr 2023 — May 2024</span>
+            </div>
+            <h3 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">Flutter Team Lead</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mt-space-lg">
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-error font-semibold">⚠️ PROBLEM</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Inconsistent <strong>code quality</strong></li>
+                  <li>Slow junior <strong>output latency</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-primary font-semibold">💡 SOLUTION</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Enforced <strong>Clean Architecture</strong></li>
+                  <li>Created strict <strong>review processes</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-tertiary font-semibold">📈 RESULT</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li><strong>Accelerated</strong> team output</li>
+                  <li><strong>Standardized</strong> major repos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- SmartLink -->
+          <div class="flex flex-col p-space-lg md:p-space-xl rounded-xl bg-surface-container-low shadow-md">
+            <div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+              <span class="px-space-xs py-0.5 rounded bg-primary-container/20 text-primary font-label-code-sm text-label-code-sm font-semibold">SmartLink</span>
+              <span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm text-label-code-sm">May 2022 — Apr 2023</span>
+            </div>
+            <h3 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">Flutter Developer</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mt-space-lg">
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-error font-semibold">⚠️ PROBLEM</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Need for a new <strong>complex app</strong></li>
+                  <li>Multiple disjoint <strong>auth systems</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-primary font-semibold">💡 SOLUTION</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Built the <strong>NXT App</strong> entirely</li>
+                  <li>Integrated <strong>secure gateways</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-tertiary font-semibold">📈 RESULT</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>100% <strong>production ready</strong></li>
+                  <li>High user <strong>engagement tracking</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Awammer -->
+          <div class="flex flex-col p-space-lg md:p-space-xl rounded-xl bg-surface-container-low shadow-md">
+            <div class="flex flex-wrap items-center gap-space-xs mb-space-sm">
+              <span class="px-space-xs py-0.5 rounded bg-primary-container/20 text-primary font-label-code-sm text-label-code-sm font-semibold">Awammer Al Shabaka</span>
+              <span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm text-label-code-sm">Apr 2020 — May 2022</span>
+            </div>
+            <h3 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">Flutter Developer</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mt-space-lg">
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-error font-semibold">⚠️ PROBLEM</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>High volume of <strong>MVP requests</strong></li>
+                  <li>Need for fast <strong>UI fidelity</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-primary font-semibold">💡 SOLUTION</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li>Streamlined <strong>client collaboration</strong></li>
+                  <li>Focused on interaction <strong>performance</strong></li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-1 p-space-sm rounded bg-surface-container">
+                <span class="font-label-ui text-label-ui text-tertiary font-semibold">📈 RESULT</span>
+                <ul class="font-body-sm text-body-sm text-on-surface list-disc pl-4 mt-2 space-y-1">
+                  <li><strong>15+ apps</strong> delivered</li>
+                  <li><strong>High-quality</strong> responsive UI</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
     <!-- Skills Section -->
-    <section class="section" id="skills">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Capabilities</p>
-          <h2 class="section-title">Technical Expertise</h2>
-          <p class="section-subtitle">Structured, production-grade technical skills.</p>
+    <section class="w-full py-margin-lg" id="skills">
+      <div class="max-w-[1360px] mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+        <div class="flex flex-col gap-space-xs mb-space-lg">
+          <span class="font-label-code-sm text-label-code-sm uppercase tracking-widest text-tertiary font-semibold">// CAPABILITIES</span>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Technical Expertise</h2>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Structured, production-grade technical skills.
+          </p>
         </div>
 
-        <div class="skills-grid">
-          <div class="skill-group card">
-            <h3>Agile & Project Management</h3>
-            <div class="badge-container">
-              <span class="badge">Scrum Master</span>
-              <span class="badge">Sprint Planning</span>
-              <span class="badge">Backlog Refinement</span>
-              <span class="badge">Kanban</span>
-              <span class="badge">Stakeholder Management</span>
-              <span class="badge">Delivery Recovery</span>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+          <div class="flex flex-col p-space-md rounded-lg bg-surface-container-low shadow-sm">
+            <h3 class="font-label-code-lg text-label-code-lg text-primary font-bold mb-space-sm">Agile & Project Management</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Scrum Master</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Sprint Planning</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Backlog Refinement</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Kanban</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Stakeholder Management</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Delivery Recovery</span>
             </div>
           </div>
-
-          <div class="skill-group card">
-            <h3>Development</h3>
-            <div class="badge-container">
-              <span class="badge">Flutter & Dart</span>
-              <span class="badge">Kotlin & Swift</span>
-              <span class="badge">Clean Architecture</span>
-              <span class="badge">Bloc / Cubit / GetX</span>
-              <span class="badge">SOLID</span>
-              <span class="badge">TDD</span>
+          
+          <div class="flex flex-col p-space-md rounded-lg bg-surface-container-low shadow-sm">
+            <h3 class="font-label-code-lg text-label-code-lg text-primary font-bold mb-space-sm">Development</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Flutter & Dart</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Kotlin & Swift</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Clean Architecture</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Bloc / Cubit / GetX</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">SOLID</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">TDD</span>
             </div>
           </div>
-
-          <div class="skill-group card">
-            <h3>APIs & Storage</h3>
-            <div class="badge-container">
-              <span class="badge">REST APIs</span>
-              <span class="badge">GraphQL</span>
-              <span class="badge">Firebase</span>
-              <span class="badge">Socket.IO & SignalR</span>
-              <span class="badge">Hive</span>
+          
+          <div class="flex flex-col p-space-md rounded-lg bg-surface-container-low shadow-sm">
+            <h3 class="font-label-code-lg text-label-code-lg text-primary font-bold mb-space-sm">APIs & Storage</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">REST APIs</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">GraphQL</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Firebase</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Socket.IO & SignalR</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Hive</span>
             </div>
           </div>
-
-          <div class="skill-group card">
-            <h3>Tools</h3>
-            <div class="badge-container">
-              <span class="badge">Jira & Azure DevOps</span>
-              <span class="badge">ClickUp & Trello</span>
-              <span class="badge">Git / GitHub / GitLab</span>
-              <span class="badge">CI/CD</span>
-              <span class="badge">AI (Claude, Codex)</span>
+          
+          <div class="flex flex-col p-space-md rounded-lg bg-surface-container-low shadow-sm">
+            <h3 class="font-label-code-lg text-label-code-lg text-primary font-bold mb-space-sm">Tools</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Jira & Azure DevOps</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">ClickUp & Trello</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">Git / GitHub / GitLab</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">CI/CD</span>
+              <span class="px-2 py-1 rounded bg-surface-container-highest text-on-surface-variant font-label-code-sm">AI (Claude, Codex)</span>
             </div>
           </div>
         </div>
@@ -342,285 +391,141 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Production Applications</p>
-          <h2 class="section-title">Published Apps</h2>
-          <p class="section-subtitle">Real mobile applications currently serving active users in production.</p>
+    <section class="w-full bg-surface-container-lowest py-margin-lg" id="projects">
+      <div class="max-w-[1360px] mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+        <div class="flex flex-col gap-space-xs mb-space-xl">
+          <span class="font-label-code-sm text-label-code-sm uppercase tracking-widest text-primary font-semibold">// PRODUCTION APPLICATIONS</span>
+          <h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Published Apps</h2>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Real mobile applications currently serving active users in production.
+          </p>
         </div>
 
-        <div class="app-grid">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter app-grid transition-all duration-300">
           
-          <!-- App 1: Project NXT -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">NX</div>
-              <div class="app-meta">
-                <h3 class="app-title">Project NXT</h3>
-                <span class="app-platform">iOS & Android</span>
-              </div>
-            </div>
-            <p class="app-desc">Production-scale application focused on user engagement and seamless multi-auth integrations.</p>
-            <div class="app-actions">
-              <a href="https://play.google.com/store/apps/details?id=me.rebelsunited.projectnxt" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
+          <script>
+            const apps = [
+              { title: 'Project NXT', icon: 'NX', platform: 'iOS & Android', desc: 'Production-scale application focused on user engagement and seamless multi-auth integrations.', link: 'https://play.google.com/store/apps/details?id=me.rebelsunited.projectnxt', store: 'Play Store' },
+              { title: 'Haraj Al-Mamlaka (حراج المملكة)', icon: 'HM', platform: 'iOS & Android', desc: 'Large scale marketplace and classifieds platform with real-time bidding, chatting, and listings.', link: 'https://apps.apple.com/eg/app/%D8%AD%D8%B1%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9/id1548691207', store: 'App Store' },
+              { title: 'Mrsoom (مرسوم)', icon: 'MR', platform: 'iOS & Android', desc: 'A primary regional application servicing large scale user bases with high performance dependencies.', link: 'https://play.google.com/store/apps/details?id=sa.aait.php.mrsoom', store: 'Play Store' },
+              { title: 'Sulalah', icon: 'SL', platform: 'Android', desc: 'E-commerce and tracking application providing direct B2C solutions mapped via robust backends.', link: 'https://play.google.com/store/apps/details?id=sa.aait.flutter.sulalah', store: 'Play Store' },
+              { title: 'Malky', icon: 'MK', platform: 'Android', desc: 'Specialized enterprise branch application enhancing B2B logistic synchronization and delivery tracking.', link: 'https://play.google.com/store/apps/details?id=sa.aait.aspbranch.malky', store: 'Play Store' },
+              { title: 'Coronet Mashaghl', icon: 'CM', platform: 'Android', desc: 'Booking and scheduling application for service providers and salons, focusing on calendar handling.', link: 'https://play.google.com/store/apps/details?id=sa.aait.asp.coronet.mashaghl', store: 'Play Store' },
+              { title: 'Engaz', icon: 'EG', platform: 'Android', desc: 'Task execution and micro-freelance assignment tracker designed for ultra-fast load times.', link: 'https://play.google.com/store/apps/details?id=sa.aait.asp.engaz', store: 'Play Store' },
+              { title: 'Salesco (سيلزكو)', icon: 'SC', platform: 'iOS', desc: 'Comprehensive sales dashboard and metric tracking for regional business teams running iOS.', link: 'https://apps.apple.com/eg/app/salesco-%D8%B3%D9%8A%D9%84%D8%B2%D9%83%D9%88/id6670360206', store: 'App Store' },
+              { title: 'Al-Akleel (الاكليل)', icon: 'AK', platform: 'iOS', desc: 'Specialized boutique and reservation platform ensuring secure payment and robust UI flow.', link: 'https://apps.apple.com/eg/app/%D8%A7%D9%84%D8%A7%D9%83%D9%84%D9%8A%D9%84/id1587589148', store: 'App Store' },
+              { title: 'Sharaft (شرفت)', icon: 'SH', platform: 'iOS', desc: 'Social connectivity and networking utility app tailored for Middle Eastern markets.', link: 'https://apps.apple.com/eg/app/%D8%B4%D8%B1%D9%81%D8%AA/id6744579729', store: 'App Store' },
+              { title: 'Shahia (شهية)', icon: 'SA', platform: 'iOS', desc: 'Food delivery and recipe networking app featuring rich media viewing and reliable checkout logic.', link: 'https://apps.apple.com/eg/app/%D8%B4%D9%87%D9%8A%D8%A9/id6744401579', store: 'App Store' },
+              { title: 'Gene', icon: 'GN', platform: 'iOS', desc: 'Healthcare metric tracker and appointment scheduling application designed carefully for accessibility.', link: 'https://apps.apple.com/eg/app/gene/id6743855109', store: 'App Store' },
+              { title: 'Sinaa', icon: 'SN', platform: 'iOS', desc: 'Industrial and supplier marketplace tailored for large B2B orders and logistics.', link: 'https://apps.apple.com/eg/app/sinaa/id6748640709', store: 'App Store' },
+              { title: 'Easy Branch', icon: 'EZ', platform: 'Android', desc: 'Corporate internal operations and management application handling secure employee data.', link: 'https://play.google.com/store/apps/details?id=sa.aait.aspbranch.easy', store: 'Play Store' }
+            ];
 
-          <!-- App 2: Haraj Al Mamlaka -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">HM</div>
-              <div class="app-meta">
-                <h3 class="app-title">Haraj Al-Mamlaka (حراج المملكة)</h3>
-                <span class="app-platform">iOS & Android</span>
-              </div>
-            </div>
-            <p class="app-desc">Large scale marketplace and classifieds platform with real-time bidding, chatting, and listings.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/%D8%AD%D8%B1%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9/id1548691207" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-              <a href="https://play.google.com/store/apps/details?id=sa.aait.asp.heragmamlka" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
-
-          <!-- App 3: Mrsoom -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">MR</div>
-              <div class="app-meta">
-                <h3 class="app-title">Mrsoom (مرسوم)</h3>
-                <span class="app-platform">iOS & Android</span>
-              </div>
-            </div>
-            <p class="app-desc">A primary regional application servicing large scale user bases with high performance dependencies.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/%D9%85%D8%B1%D8%B3%D9%88%D9%85/id1541744793" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-              <a href="https://play.google.com/store/apps/details?id=sa.aait.php.mrsoom" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
-
-          <!-- App 4: Sulalah -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">SL</div>
-              <div class="app-meta">
-                <h3 class="app-title">Sulalah</h3>
-                <span class="app-platform">Android</span>
-              </div>
-            </div>
-            <p class="app-desc">E-commerce and tracking application providing direct B2C solutions mapped via robust backends.</p>
-            <div class="app-actions">
-              <a href="https://play.google.com/store/apps/details?id=sa.aait.flutter.sulalah" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
-
-          <!-- App 5: Malky -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">MK</div>
-              <div class="app-meta">
-                <h3 class="app-title">Malky</h3>
-                <span class="app-platform">Android</span>
-              </div>
-            </div>
-            <p class="app-desc">Specialized enterprise branch application enhancing B2B logistic synchronization and delivery tracking.</p>
-            <div class="app-actions">
-              <a href="https://play.google.com/store/apps/details?id=sa.aait.aspbranch.malky" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
-
-          <!-- App 6: Mashaghl -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">CM</div>
-              <div class="app-meta">
-                <h3 class="app-title">Coronet Mashaghl</h3>
-                <span class="app-platform">Android</span>
-              </div>
-            </div>
-            <p class="app-desc">Booking and scheduling application for service providers and salons, focusing on calendar handling.</p>
-            <div class="app-actions">
-              <a href="https://play.google.com/store/apps/details?id=sa.aait.asp.coronet.mashaghl" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
-
-          <!-- App 7: Engaz -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">EG</div>
-              <div class="app-meta">
-                <h3 class="app-title">Engaz</h3>
-                <span class="app-platform">Android</span>
-              </div>
-            </div>
-            <p class="app-desc">Task execution and micro-freelance assignment tracker designed for ultra-fast load times.</p>
-            <div class="app-actions">
-              <a href="https://play.google.com/store/apps/details?id=sa.aait.asp.engaz" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
-
-          <!-- App 8: Salesco -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">SC</div>
-              <div class="app-meta">
-                <h3 class="app-title">Salesco (سيلزكو)</h3>
-                <span class="app-platform">iOS</span>
-              </div>
-            </div>
-            <p class="app-desc">Comprehensive sales dashboard and metric tracking for regional business teams running iOS.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/salesco-%D8%B3%D9%8A%D9%84%D8%B2%D9%83%D9%88/id6670360206" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-            </div>
-          </article>
-
-          <!-- App 9: Al Akleel -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">AK</div>
-              <div class="app-meta">
-                <h3 class="app-title">Al-Akleel (الاكليل)</h3>
-                <span class="app-platform">iOS</span>
-              </div>
-            </div>
-            <p class="app-desc">Specialized boutique and reservation platform ensuring secure payment and robust UI flow.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/%D8%A7%D9%84%D8%A7%D9%83%D9%84%D9%8A%D9%84/id1587589148" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-            </div>
-          </article>
-
-          <!-- App 10: Sharaft -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">SH</div>
-              <div class="app-meta">
-                <h3 class="app-title">Sharaft (شرفت)</h3>
-                <span class="app-platform">iOS</span>
-              </div>
-            </div>
-            <p class="app-desc">Social connectivity and networking utility app tailored for Middle Eastern markets.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/%D8%B4%D8%B1%D9%81%D8%AA/id6744579729" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-            </div>
-          </article>
-
-          <!-- App 11: Shahia -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">SA</div>
-              <div class="app-meta">
-                <h3 class="app-title">Shahia (شهية)</h3>
-                <span class="app-platform">iOS</span>
-              </div>
-            </div>
-            <p class="app-desc">Food delivery and recipe networking app featuring rich media viewing and reliable checkout logic.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/%D8%B4%D9%87%D9%8A%D8%A9/id6744401579" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-            </div>
-          </article>
-
-          <!-- App 12: Gene -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">GN</div>
-              <div class="app-meta">
-                <h3 class="app-title">Gene</h3>
-                <span class="app-platform">iOS</span>
-              </div>
-            </div>
-            <p class="app-desc">Healthcare metric tracker and appointment scheduling application designed carefully for accessibility.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/gene/id6743855109" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-            </div>
-          </article>
-
-          <!-- App 13: Sinaa -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">SN</div>
-              <div class="app-meta">
-                <h3 class="app-title">Sinaa</h3>
-                <span class="app-platform">iOS</span>
-              </div>
-            </div>
-            <p class="app-desc">Industrial and supplier marketplace tailored for large B2B orders and logistics.</p>
-            <div class="app-actions">
-              <a href="https://apps.apple.com/eg/app/sinaa/id6748640709" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">App Store</a>
-            </div>
-          </article>
-
-          <!-- App 14: Easy Branch -->
-          <article class="app-card card">
-            <div class="app-card-top">
-              <div class="app-icon">EZ</div>
-              <div class="app-meta">
-                <h3 class="app-title">Easy Branch</h3>
-                <span class="app-platform">Android</span>
-              </div>
-            </div>
-            <p class="app-desc">Corporate internal operations and management application handling secure employee data.</p>
-            <div class="app-actions">
-              <a href="https://play.google.com/store/apps/details?id=sa.aait.aspbranch.easy" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Play Store</a>
-            </div>
-          </article>
-
+            apps.forEach((app, index) => {
+              const displayClass = index >= 3 ? 'app-card-hidden hidden sm:flex' : 'flex';
+              document.write(`
+                <article class="flex flex-col p-space-md rounded-lg bg-surface-container-low shadow-sm ${displayClass}">
+                  <div class="flex gap-space-sm items-center mb-space-sm">
+                    <div class="w-12 h-12 bg-surface-container flex items-center justify-center font-bold text-lg text-on-surface rounded-lg shrink-0">${app.icon}</div>
+                    <div class="flex flex-col">
+                      <h3 class="font-headline-sm text-on-surface">${app.title}</h3>
+                      <span class="font-label-code-sm text-tertiary">${app.platform}</span>
+                    </div>
+                  </div>
+                  <p class="font-body-sm text-on-surface-variant flex-grow mb-space-md">${app.desc}</p>
+                  <a href="${app.link}" target="_blank" class="px-3 py-1.5 rounded-md bg-surface-container-highest text-on-surface-variant text-center font-label-code-sm hover:text-on-surface hover:bg-surface-bright transition-colors mt-auto">
+                    ${app.store}
+                  </a>
+                </article>
+              `);
+            });
+          </script>
         </div>
         
-        <div class="projects-actions">
-          <button id="toggle-projects-btn" class="btn btn-secondary" aria-expanded="false">See all projects</button>
+        <div class="flex justify-center mt-space-xl sm:hidden">
+          <button id="toggle-projects-btn" class="px-space-lg py-2 rounded-lg bg-surface-container-high text-on-surface font-label-code-sm font-semibold hover:bg-surface-container-highest transition-colors">
+            See all projects
+          </button>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Connect</p>
-          <h2 class="section-title">Direct Contact</h2>
-        </div>
-        
-        <div class="contact-card card">
-          <p class="contact-desc">Ready to discuss project recovery, mobile architecture, or engineering leadership? Reach out directly using any of the channels below.</p>
-          
-          <div class="contact-links-grid">
-            <a href="tel:+201002348032" class="contact-action-item">
-              <strong>Phone</strong>
-              <span>+20 100 234 8032</span>
-            </a>
+    <section class="w-full py-margin-lg" id="contact">
+      <div class="max-w-[1360px] mx-auto px-margin md:px-margin-md lg:px-margin-lg">
+        <div class="p-space-lg md:p-space-xl rounded-2xl bg-gradient-to-br from-surface-container to-surface-container-low shadow-2xl">
+          <div class="flex flex-col gap-space-md">
+            <span class="font-label-code-sm text-label-code-sm uppercase tracking-widest text-primary font-semibold">// CONNECT</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Direct Contact</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+              Ready to discuss project recovery, mobile architecture, or engineering leadership? Reach out directly using any of the channels below.
+            </p>
             
-            <a href="https://wa.me/201002348032" target="_blank" rel="noopener noreferrer" class="contact-action-item">
-              <strong>WhatsApp</strong>
-              <span>Business Channel</span>
-            </a>
-            
-            <a href="mailto:seifabogheda89@gmail.com" class="contact-action-item">
-              <strong>Email</strong>
-              <span>seifabogheda89@gmail.com</span>
-            </a>
-            
-            <a href="https://www.linkedin.com/in/abogheda/" target="_blank" rel="noopener noreferrer" class="contact-action-item">
-              <strong>LinkedIn</strong>
-              <span>/in/abogheda</span>
-            </a>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md mt-space-md">
+              <a href="tel:+201002348032" class="flex flex-col p-space-md rounded-lg bg-surface-container-highest hover:bg-surface-bright transition-colors">
+                <span class="font-headline-sm text-on-surface font-bold">Phone</span>
+                <span class="font-label-code-sm text-on-surface-variant mt-1">+20 100 234 8032</span>
+              </a>
+              <a href="https://wa.me/201002348032" class="flex flex-col p-space-md rounded-lg bg-surface-container-highest hover:bg-surface-bright transition-colors" target="_blank">
+                <span class="font-headline-sm text-on-surface font-bold">WhatsApp</span>
+                <span class="font-label-code-sm text-on-surface-variant mt-1">Business Channel</span>
+              </a>
+              <a href="mailto:seifabogheda89@gmail.com" class="flex flex-col p-space-md rounded-lg bg-surface-container-highest hover:bg-surface-bright transition-colors">
+                <span class="font-headline-sm text-on-surface font-bold">Email</span>
+                <span class="font-label-code-sm text-on-surface-variant mt-1">seifabogheda89@gmail.com</span>
+              </a>
+              <a href="https://www.linkedin.com/in/abogheda/" class="flex flex-col p-space-md rounded-lg bg-surface-container-highest hover:bg-surface-bright transition-colors" target="_blank">
+                <span class="font-headline-sm text-on-surface font-bold">LinkedIn</span>
+                <span class="font-label-code-sm text-on-surface-variant mt-1">/in/abogheda</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="container footer-container">
-      <div class="footer-brand">
-        <strong>Seif Abogheda</strong> 
-        <span style="color: var(--text-tertiary); margin-left: 0.5rem;">&copy; <span id="year"></span></span>
+  </div>
+</main>
+
+<footer class="w-full bg-surface-container-lowest shadow-[0_-1px_16px_rgba(0,0,0,0.3)]">
+  <div class="w-full max-w-[1360px] mx-auto px-margin md:px-margin-md lg:px-margin-lg py-margin-md">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-space-md">
+      <div class="flex items-center gap-space-md">
+        <span class="font-headline-sm text-headline-sm text-on-surface font-bold">Seif Abogheda</span>
+        <span class="font-label-code-sm text-label-code-sm text-on-surface-variant">© 2026</span>
       </div>
-      <div class="footer-links">
-        <a href="https://github.com/seifabogheda" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/abogheda/" target="_blank">LinkedIn</a>
+      <div class="flex items-center gap-space-md">
+        <a class="font-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="https://github.com/seifabogheda" target="_blank">GitHub</a>
+        <a class="font-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="https://www.linkedin.com/in/abogheda/" target="_blank">LinkedIn</a>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
+<script>
+  // Mobile Projects Toggle
+  const toggleBtn = document.getElementById('toggle-projects-btn');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      const hiddenCards = document.querySelectorAll('.app-card-hidden');
+      const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+      
+      if (isExpanded) {
+        hiddenCards.forEach(card => card.classList.add('hidden'));
+        toggleBtn.textContent = 'See all projects';
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      } else {
+        hiddenCards.forEach(card => {
+          card.classList.remove('hidden');
+          card.classList.add('flex');
+        });
+        toggleBtn.textContent = 'Show fewer projects';
+        toggleBtn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  }
+</script>
 </body>
 </html>
+with open("index.html", "w") as f:
+    f.write(html)
